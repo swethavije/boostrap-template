@@ -1,0 +1,39 @@
+*{
+    box-sizing:border-box;
+	margin:0;
+	padding:0;
+	}
+.bg-primary{
+	background-color:#4fbdcb !important;
+}
+.menu a{
+	padding-left:5px;
+}
+.main-banner{
+	     background-image:url(../image/slide/slide-3.jpg);
+	     background-repeat:no-repeat;
+	     background-size:cover;
+	     background-position:center top;
+	     background-attachment:fixed;
+		 height:100vh;
+		 padding-top:400px;
+}
+.test-img img{
+	 border-radius:50%;
+}
+.test-content{
+	background-color:#2196f314;
+}
+.test-content i{
+	color:#0dcaf04d;
+}
+.question-section{
+	 background-color:#2196f314;
+}
+.accordion{
+	background-color:#2196f314;
+}
+.footer2-section{
+         background-color:#eee;
+}		 
+	
