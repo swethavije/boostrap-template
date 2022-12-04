@@ -3,7 +3,10 @@
 	margin:0;
 	padding:0;
 	}
-.bg-primary{
+.bg-info{
+	background-color:#4fbdcb !important;
+}
+.btn-info{
 	background-color:#4fbdcb !important;
 }
 .menu a{
@@ -18,6 +21,14 @@
 		 height:100vh;
 		 padding-top:400px;
 }
+.appointment-section{
+	background-color:#2196f314;
+}
+.doctors-section{
+	background-color:#2196f314;
+	
+	
+}	
 .test-img img{
 	 border-radius:50%;
 }
