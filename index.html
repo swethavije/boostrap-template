@@ -27,28 +27,41 @@
 			</div>
 		</div>
 		        <!-------header bottom------>
-			   <!-- <div class="logo">
-		          <img src="image/logo.png" alt="pic">
-				</div>-->
 				<div class="nav-bar">
-                    <div class="container">
-					<div class="row mt-3 mb-3">
+                    <div class="container p-2">
+					<div class="row">
 					<div class="logo col-lg-2">
                     <a href="#">
-                                    <img src="image/logo.png" alt="pic" width="80" height="40"></a>
+                                    <img src="image/logo.png" alt="pic" width="125" height="auto"></a>
 					</div>
-					<div class="menu text-end col-lg-7">
+					<div class="menu col-lg-7">
 					<ul class="nav justify-content-end ">
-					     <li class="nav-items"><a class="nav-link text-info active " href="#">Home</a></li>
-						 <li class="nav-items"><a class="nav-link text-muted fw-bold" href="#">About</a></li>
-						 <li class="nav-items"><a class="nav-link text-muted fw-bold" href="#">Services</a></li>
-						 <li class="nav-items"><a class="nav-link text-muted fw-bold" href="#">Departments</a></li>
-						 <li class="nav-items"><a class="nav-link text-muted fw-bold" href="#">Doctors</a></li>
-						 <li class="nav-items"><a class="nav-link text-muted fw-bold" href="#">DropDown</a></li>
-						 <li class="nav-items"><a class="nav-link text-muted fw-bold" href="#">Contact</a></li>
+					     <li class="nav-items"><a class="nav-link text-info  fw-bold active" href="#">Home</a></li>
+						 <li class="nav-items fs-6"><a class="nav-link text-muted" href="#">About</a></li>
+						 <li class="nav-items fs-6"><a class="nav-link text-muted" href="#">Services</a></li>
+						 <li class="nav-items fs-6"><a class="nav-link text-muted" href="#">Departments</a></li>
+						 <li class="nav-items fs-6"><a class="nav-link text-muted" href="#">Doctors</a></li>
+						 <li class="nav-items dropdown-head fs-6"><a class="nav-link text-muted" href="#">DropDown <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+						  <!-- <ul class="dropdown-nav">
+						      <li><a href="#">Drop Down 1</a></li>
+							  <li class="dropdown-sub"><a href="#">Deep Drop Down <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+						<ul class="dropdown-sub-nav">
+						      <li><a class="dropdown-item" href="#">Drop Down 1</a></li>
+							  <li><a class="dropdown-item" href="#">Drop Down 2</a></li>
+							  <li><a class="dropdown-item" href="#">Drop Down 3 </a></li>
+							  <li><a class="dropdown-item"  href="#">Drop Down 4</a></li>
+							  <li><a  class="dropdown-item"href="#">Drop Down 5</a></li>
+						</ul>
+							  </li>
+							  <li><a class="dropdown-item" href="#">Drop Down 3</a></li>
+							  <li><a class="dropdown-item" href="#">Drop Down 4</a></li>
+							  <li><a class="dropdown-item" href="#">Drop Down 5</a></li>
+						</ul>-->
+						 </li>
+						 <li class="nav-items fs-6"><a class="nav-link text-muted" href="#">Contact</a></li>
                     </ul> 
 					</div>
-					<div class="col-lg-3 d-flex justify-content-end">
+					<div class="col-lg-3 text-center ">
                           <button type="button" width="20" height="20" class="btn btn-info text-white">Make an Appointment</button>					
                     
 					</div>
@@ -59,44 +72,70 @@
 </section>
 	     <!------------------main banner section----------------------------->
 <section class="main-banner">
-<div class="container">
-					<div class="main-banner-content bg-light  pb-3 pt-3 border-top border-info border-3 text-center">
-					       <h2>Sequi ea ut et est quaerat</h2>
-						   <p>Nemo enim ipsam voluptatem quia voluptas  nim ipsam voluptatemsit aspernatur aut odit aut aspernatur aut odit au porro quisquam <br>est, qui  ipsum quia dolor sit amet, consectetur</p>
-						   <a class="btn btn-info text-white" href="#" role="button">Read More</a>
-					</div>
-					<div id="#mainbannerindicator" class="carousel slide mt-5 " data-bs-ride="carousel">
-                       <div class="carousel-indicators ">
-                                <button type="button" data-bs-target="#mainbannerindicator" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                          </div>
-						</div>
- </div>             
+
+
+                         <div id="mainbannercarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                             <div class="carousel-indicators mt-3 mb-3">
+                                <button type="button" data-bs-target="#mainbannercarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#mainbannercarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                 <button type="button" data-bs-target="#mainbannercarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                              </div>
+                              <div class="carousel-inner">
+                                   <div class="carousel-item main-bg-one w-100 active">
+                                           <div class="carousel-caption  border-top border-info border-3 text-center">
+                                                 <h2>Welcome to Medicio</h2>
+						                        <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea<br> voluptatem. Esse doloremque accusamus repellendus deleniti vel.</p>
+						                        <a class="btn btn-info ps-3 pe-3 text-white" href="#" role="button">Read More</a>
+                                             </div>
+                                     </div>
+                                   <div class="carousel-item main-bg-two w-100">
+                                                 <div class="carousel-caption border-top  border-info border-3 text-center ">
+                                                   <h2>Lorem Ipsum Dolor</h2>
+						                           <p>Ut velit est quam dolor ad a aliquid qui  ut qui nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea<br> voluptatem. Esse  accusamus repellendus deleniti vel.</p>
+                                                  <a class="btn btn-info ps-3 pe-3 text-white" href="#" role="button">Read More</a>
+                                                </div>
+                                   </div>
+                                  <div class="carousel-item main-bg-three w-100">
+                                                   <div class="carousel-caption border-top border-info border-3 text-center ">
+                                                     <h2>Sequi ea ut et est quaerat</h2>
+						                             <p>Nemo enim ipsam voluptatem quia emsit aspernatur  aspernatur aut odit au porro quisquam <br>est, qui  ipsum quia dolor sit amet, consectetur</p>
+						                             <a class="btn btn-info ps-3 pe-3 text-white" href="#" role="button">Read More</a>
+                                                   </div>
+                                    </div>
+                                   </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#mainbannercarousel" data-bs-slide="prev">
+                                          <span class="carousel-control-prev-icon main-banner-icon " aria-hidden="true"><i class="fa fa-angle-left fs-1" aria-hidden="true"></i></span>
+                                          <span class="visually-hidden">Previous</span>
+                                 </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#mainbannercarousel" data-bs-slide="next">
+                                         <span class="carousel-control-next-icon main-banner-icon" aria-hidden="true"><i class="fa fa-angle-right fs-1" aria-hidden="true"></i></span>
+                                         <span class="visually-hidden">Next</span>
+                               </button>
+             
 </section>
 		 <!-------------------about1 section----------------------------->
- <section class="about1-section">
+ <section class="about1-section pt-5 pb-5">
 		<div class="container">
-			<div class="row mt-5 mb-5">
-			  <div class="col-lg-3 ps-4  pt-3  shadow ">
-			     <i class="fa fa-heartbeat fs-3 text-info" aria-hidden="true"></i>
-				 <h3 class="fs-4">Lorem Ipsum</h3>
-				 <p class="fs-6 fw-lighter ">ed ut perspicia	tis unde  natus error sit voluptatem accusantium, et</p>
+			<div class="row">
+			  <div class=" abt1-box col-lg-3">
+			     <i class="fa fa-heartbeat fs-1 text-info" aria-hidden="true"></i>
+				 <h3 class="fs-5 fw-bold">Lorem Ipsum</h3>
+				 <p class="fs-6 fw-lighter ">ed ut perspicia tis unde natus error sit	tis unde  natus error sit voluptatem accusantium, et</p>
 			  </div>
-			  <div class="col-lg-3 ps-4 pt-3  shadow">
-			     <i class="fa fa-medkit fs-3 text-info" aria-hidden="true"></i>
-				 <h3 class="fs-4">Set ut perspiciatis</h3>
-				 <p class="fs-6 fw-lighter">ed ut perspicia	tis unde natus error sit voluptatem accusantium, et</p>
+			  <div class="abt1-box col-lg-3">
+			     <i class="fa fa-medkit fs-1 text-info" aria-hidden="true"></i>
+				 <h3 class="fs-5 fw-bold">Set ut perspiciatis</h3>
+				 <p class="fs-6 fw-lighter">ed ut perspicia	tis unde natus error sit voluptatem tis unde natus error sit accusantium, et</p>
 			  </div>
-			  <div class="col-lg-3 ps-4 pt-3 shadow">
-			     <i class="fa fa-thermometer-full fs-3 text-info" aria-hidden="true"></i>
-				 <h3 class="fs-4">Magini Dolores</h3>
-				 <p class="fs-6 fw-lighter">ed ut perspicia	tis unde  natus error sit voluptatem accusantium,   et</p>
+			  <div class=" abt1-box col-lg-3">
+			     <i class="fa fa-thermometer-full fs-1 text-info" aria-hidden="true"></i>
+				 <h3 class="fs-5 fw-bold">Magini Dolores</h3>
+				 <p class="fs-6 fw-lighter">ed ut perspicia	 tis unde natus error sittis unde  natus error sit voluptatem accusantium,   et</p>
 			  </div>
-			  <div class="col-lg-3 ps-4 pt-3 shadow">
-			     <i class="fa fa-hourglass-half fs-3 text-info" aria-hidden="true"></i>
-				 <h3 class="fs-4">Nemo Enim</h3>
-				 <p class="fs-6 fw-lighter">ed ut perspicia	tis unde omnis iste natus error sit voluptatem accusantium, et</p>
+			  <div class=" abt1-box col-lg-3">
+			     <i class="fa fa-hourglass-half fs-1 text-info" aria-hidden="true"></i>
+				 <h3 class="fs-5 fw-bold">Nemo Enim</h3>
+				 <p class="fs-6 fw-lighter">ed ut perspicia	 tis unde natus error sittis unde omnis iste natus error sit voluptatem accusantium, et</p>
 			  </div>
 			</div>
 		</div>
@@ -105,17 +144,17 @@
 <section class="banner-section bg-info">
 <div class="container">
                  <div class="banner-content text-center pt-5 pb-5">
-				         <h4 class="text-white fs-5">In an emergency? Need help now?</h4>
-						 <p class="text-white fw-lighter">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,  <br>scrambled it to make a type specimen book.</p>
-						 <button type="button" class="btn btn-outline-light border border-white rounded-pill">Make an Appointment</button>
+				         <h4 class="text-white fs-3 fw-bold">In an emergency? Need help now?</h4>
+						 <p class="text-white ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,  <br>scrambled it to make a type specimen book.</p>
+						 <button type="button" class="btn b-btn btn-outline-light border-2 border-white rounded-pill ps-3 pe-3 fw-bold">Make an Appointment</button>
 				 </div>
 </div>
 </section>
 	     <!-------------------about us section----------------------------->
 <section class="about-us-section">
 <div class="container">
-           <div class="about-us-head text-center mt-5 mb-4">
-		           <h4 class="fs-4 fw-bold">ABOUT US</h4>
+           <div class="head-title text-center mt-5">
+		           <h2 class="fs-3 fw-bold">ABOUT US</h2>
 		           <p class="lh-sm fs-6 fw-lighter">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore <br>et quasi architecto beatae vitae dicta sunt explicabo.</p>
 		   </div>
 		   <div class="row">
@@ -124,14 +163,14 @@
 				</div>
 				<div class="col-lg-6">
 				     <div class="about-content">
-				              <h3 class="fs-4">Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-				              <p class="lh-sm fs-6 fw-lighter"><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua,</i>.</p>
+				              <h3 class="fs-4 fw-bold">Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+				              <p class="lh-sm fst-italic fs-6 fw-lighter"><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua,</i>.</p>
 				 <ul>
-				      <li class="pb-2fs-6 fw-lighter"><i class="fa fa-check-circle-o text-info" aria-hidden="true"></i>       Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-					  <li class="pb-2 fs-6 fw-lighter"><i class="fa fa-check-circle-o text-info" aria-hidden="true"></i>       Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-					  <li class="pb-2 fs-6 fw-lighter"><i class="fa fa-check-circle-o text-info" aria-hidden="true"></i>       Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+				      <li class="pb-3 fs-6 fw-lighter"><i class="fa fa-check-circle-o fs-5 text-info" aria-hidden="true"></i>       Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+					  <li class="pb-3 fs-6 fw-lighter"><i class="fa fa-check-circle-o fs-5 text-info" aria-hidden="true"></i>       Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+					  <li class="pb-3 fs-6 fw-lighter"><i class="fa fa-check-circle-o fs-5 text-info" aria-hidden="true"></i>       Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
 				 </ul>
-				  <p class="lh-sm fs-6 fw-lighter">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+				  <p class="lh-base fs-6 fw-lighter">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 				 </div>
 				 </div>
 				
@@ -139,47 +178,47 @@
 </div>
 </section>
 		 <!-------------------about2 section----------------------------->
-<section class="about2-section">
+<section class="about2-section pt-5 pb-5">
 <div class="container">
-            <div class="row mt-5 mb-5">
-			      <div class="col-lg-3 p-4  shadow">
-				      <div class="abt-icons pb-3 d-flex align-items-center">
-				      <i class="fa fa-user-o fs-2 text-info" aria-hidden="true"></i>
-				      <h4 class="ps-2 fs-2 fw-bolder">85</h4>
-					  </div>
-				      <p class="fs-6 pb-2 lh-sm"><b>Doctors</b> Various versions have evolved over</p>
-					   <div class="about-find">
-					     <p class="fw-light">Find Out More          <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
-					  </div>
-				  </div>
-				   <div class="col-lg-3 p-4 shadow">
-				      <div class="abt-icons  pb-2 d-flex align-items-center">
-				      <i class="fa fa-building-o fs-2 text-info" aria-hidden="true"></i>
-				      <h4 class="ps-2 fs-2 fw-bolder">26</h4>
-					  </div>
-				      <p class="fs-6 lh-sm pb-2"><b>Departments</b> Various versions have evolved over the years</p>
-					   <div class="about-find">
-					     <p>Find Out More            <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
-					  </div>
-				  </div>
-				   <div class="col-lg-3 p-4 shadow">
+            <div class="row">
+			      <div class="about2-con col-lg-3 p-4">
 				      <div class="abt-icons pb-2 d-flex align-items-center">
-				       <i class="fa fa-tint fs-2 text-info " aria-hidden="true"></i>
-				       <h4 class="ps-2  fs-2 fw-bolder">14</h4>
+				      <i class="fa fa-user-o fs-3 text-info" aria-hidden="true"></i>
+				      <h4 class="ps-2 lh-base fs-2 fw-bolder">85</h4>
 					  </div>
-				       <p class="fs-6 lh-sm pb-2"><b>Research Lab</b> evolved over the years, sometimes by accident</p>
-					    <div class="about-find">
-					     <p>Find Out More     <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+				      <p class="abt2-content pb-2 lh-sm"><b>Doctors</b> Various versions have evolved over</p>
+					   <div class="about-find">
+					     <p class="text-muted fs-6 ">Find Out More          <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
 					  </div>
 				  </div>
-				   <div class="col-lg-3 p-4 shadow">
-				       <div class="abt-icons  pb-2 d-flex align-items-center">
-				       <i class="fa fa-trophy fs-2 text-info" aria-hidden="true"></i>
-				      <h4 class="ps-2 fs-2 fw-bolder">150</h4>
+				   <div class="about2-con col-lg-3 p-4">
+				      <div class="abt-icons  pb-2 d-flex align-items-center">
+				      <i class="fa fa-building-o fs-3 text-info" aria-hidden="true"></i>
+				      <h4 class="ps-3 fs-2 fw-bolder">26</h4>
 					  </div>
-				      <p class="fs-6 pb-2 lh-sm"><b>Awards</b> evolved over the years, sometimes by accident</p>
+				      <p class="lh-sm abt2-content text-muted pb-2"><b>Departments</b> Various versions have evolved over the years</p>
+					   <div class="about-find">
+					     <p class="text-muted fs-6 ">Find Out More            <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+					  </div>
+				  </div>
+				   <div class="about2-con col-lg-3 p-4">
+				      <div class="abt-icons pb-2 d-flex align-items-center">
+				       <i class="fa fa-tint fs-3 text-info " aria-hidden="true"></i>
+				       <h4 class="ps-3  fs-2 fw-bolder">14</h4>
+					  </div>
+				       <p class="lh-sm abt2-content text-muted  pb-2"><b>Research Lab</b> evolved over the years, sometimes by accident</p>
+					    <div class="about-find">
+					     <p class="text-muted fs-6 ">Find Out More     <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+					  </div>
+				  </div>
+				   <div class=" about2-con col-lg-3 p-4">
+				       <div class="abt-icons  pb-2 d-flex align-items-center">
+				       <i class="fa fa-trophy fs-3 text-info" aria-hidden="true"></i>
+				      <h4 class="ps-3 fs-2 fw-bolder">150</h4>
+					  </div>
+				      <p class="pb-2 abt2-content text-muted  lh-sm"><b>Awards</b> evolved over the years, sometimes by accident</p>
 					  <div class="about-find">
-					     <p>Find Out More      <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+					     <p class="text-muted fs-6 ">Find Out More      <i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
 					  </div>
 				  </div>
 			</div>
@@ -188,34 +227,38 @@
 		 <!-------------------about3 section----------------------------->
 <section="about3-section">
 <div class="container">
-        <div class="row mt-5 mb-5">
+        <div class="row">
 				<div class="col-lg-6">
-				       <div class="about3-content d-flex">
+				       <div class="about3-content pb-3 d-flex">
 				        <i class="fa fa-file-text  pt-2 fs-2 text-info " aria-hidden="true"></i>
-					   <div class="about3-con ps-2">
-				         <h4>Est labore ad</h4>
-					     <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+					   <div class="about3-con  ps-4">
+				         <h4 class="fs-5 ">Est labore ad</h4>
+					     <p class="text-muted">Consequuntur sunt aut quasi enim aliquam quae harum
+						 pariatur laboris nisi ut aliquip</p>
 					  </div>
 				    </div>
-					<div class="about3-content d-flex ">
+					<div class="about3-content  pb-3 d-flex ">
 				       <i class="fa fa-cube pt-2  fs-2 text-info" aria-hidden="true"></i>
-					   <div class="about3-con ps-2">
-				          <h4>Harum esse qui</h4>
-					      <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+					   <div class="about3-con ps-4">
+				          <h4 class="fs-5">Harum esse qui</h4>
+					      <p class="text-muted">Excepteur sint occaecat cupidatat non proident, sunt in 
+						  culpa qui officia deserunt</p>
 					  </div>
 				    </div>
-					<div class="about3-content d-flex">
+					<div class="about3-content pb-3 d-flex">
 				      <i class="fa fa-picture-o pt-2 fs-2 text-info" aria-hidden="true"></i>
-					  <div class="about3-con ps-2">
-				          <h4>Aut occaecati</h4>
-					       <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+					  <div class="about3-con ps-4">
+				          <h4 class="fs-5">Aut occaecati</h4>
+					       <p class=" text-muted">Aut suscipit aut cum nemo deleniti aut omnis. Doloribus
+						   ut maiores omnis facere</p>
 					  </div>
 				    </div>
-					<div class="about3-content d-flex ">
+					<div class="about3-content pb-3 d-flex ">
 				      <i class="fa fa-shield pt-2 fs-2 text-info" aria-hidden="true"></i>
-					  <div class="about3-con ps-2">
-				          <h4>Beatae veritatis</h4>
-					       <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+					  <div class="about3-con ps-4">
+				          <h4 class="fs-5 ">Beatae veritatis</h4>
+					       <p class="text-muted">Expedita veritatis consequuntur nihil tempore laudantium
+						   vitae denat pacta</p>
 					  </div>
 				    </div>
 				</div>
@@ -226,55 +269,57 @@
 </div>
 </section>
 		 <!------------------services section----------------------------->
-<section class="services-section">
+<section class="services-section pt-4 pb-4">
 <div class="container">
-           <div class="services-head text-center mt-5 mb-4">
-		           <h4 class="fw-bold fs-4">SERVICES</h4>
+           <div class="head-title text-center mt-5 mb-4">
+		           <h2 class="fw-bold fs-3">SERVICES</h2>
 		           <p class="lh-sm fs-6 fw-lighter">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore <br>et quasi architecto beatae vitae dicta sunt explicabo.</p>
 		   </div>
 		    <div class="row">
 				      <div class="col-lg-4">
-					   <div class="services-content text-center">
-					      <i class="fa fa-heartbeat  fs-3 text-info shadow-sm p-3 rounded-circle" aria-hidden="true"></i>
-					      <h3 class="fs-5"><a href="#" class="text-decoration-none text-reset">Lorem Ipsum</a></h3>
-						  <p class="lh-sm fs-6 fw-lighter">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+					   <div class="services-content  text-center">
+					      <i class="fa fa-heartbeat mb-3 fs-2 text-info  p-3 rounded-circle" aria-hidden="true"></i>
+					      <h3 class="fs-5 mb-4"><a href="#" class="text-decoration-none text-reset">Lorem Ipsum</a></h3>
+						  <p class="lh-sm fs-6 mb-5 fw-lighter">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
 					   </div>
 					   </div>
 					   <div class="col-lg-4">
-					   <div class="services-content text-center">
-					       <i class="fa fa-medkit   fs-3 text-info shadow-sm p-3 rounded-circle" aria-hidden="true"></i>
-					      <h3 class="fs-5"><a href="#" class="text-decoration-none text-reset">Sed ut perspiciatis</a></h3>
-						  <p class="lh-sm fs-6 fw-lighter">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+					   <div class="services-content  text-center">
+					       <i class="fa fa-medkit mb-3 fs-3 text-info  p-3 rounded-circle" aria-hidden="true"></i>
+					      <h3 class="fs-5  mb-4"><a href="#" class="text-decoration-none text-reset">Sed ut perspiciatis</a></h3>
+						  <p class="lh-sm fs-6 mb-5 fw-lighter">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
 					   </div>
 					   </div>
 					   <div class="col-lg-4">
-					   <div class="services-content text-center">
-					      <i class="fa fa-hospital-o  fs-3 text-info shadow-sm p-3 rounded-circle" aria-hidden="true"></i>
-					      <h3 class="fs-5"><a href="#" class="text-decoration-none text-reset">Magni Dolores</a></h3>
-						  <p class="lh-sm fs-6 fw-lighter">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+					   <div class="services-content  text-center">
+					      <i class="fa fa-hospital-o mb-3 fs-3 text-info p-3 rounded-circle" aria-hidden="true"></i>
+					      <h3 class="fs-5 mb-4"><a href="#" class="text-decoration-none text-reset">Magni Dolores</a></h3>
+						  <p class="lh-sm fs-6 mb-5 fw-lighter">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
+
+</p>
 					   </div>
 					   </div>
 		          
 				  
 				     <div class="col-lg-4">
-					   <div class="services-content text-center">
-					        <i class="fa fa-hourglass-half  fs-3 text-info shadow-sm p-3 rounded-circle" aria-hidden="true"></i>
-					       <h3 class="fs-5"><a href="#" class="text-decoration-none text-reset">Nemo Enim</a></h3>
-						  <p class="lh-sm fs-6 fw-lighter">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+					   <div class="services-content  text-center">
+					        <i class="fa fa-hourglass-half mb-3  fs-3 text-info  p-3 rounded-circle" aria-hidden="true"></i>
+					       <h3 class="fs-5 mb-4"><a href="#" class="text-decoration-none text-reset">Nemo Enim</a></h3>
+						  <p class="lh-sm fs-6  mb-5 fw-lighter">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 					   </div>
 					   </div>
 					   <div class="col-lg-4">
-					   <div class="services-content text-center">
-					        <i class="fa fa-wheelchair-alt  fs-3 text-info shadow-sm p-3 rounded-circle" aria-hidden="true"></i>
-					       <h3 class="fs-5"><a href="#" class="text-decoration-none text-reset">Dele cardo</a></h3>
-						  <p class="lh-sm fs-6 fw-lighter">Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+					   <div class="services-content  text-center">
+					        <i class="fa fa-wheelchair-alt mb-3  fs-3 text-info  p-3 rounded-circle" aria-hidden="true"></i>
+					       <h3 class="fs-5 mb-4"><a href="#" class="text-decoration-none text-reset">Dele cardo</a></h3>
+						  <p class="lh-sm fs-6 mb-5 fw-lighter">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
 					   </div>
 					   </div>
 					   <div class="col-lg-4">
-					   <div class="services-content text-center">
-					       <i class="fa fa-ambulance  fs-3 text-info shadow-sm p-3 rounded-circle" aria-hidden="true"></i>
-					       <h3 class="fs-5"><a href="#" class="text-decoration-none text-reset">Divera don</a></h3>
-						  <p class="lh-sm fs-6 fw-lighter">Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+					   <div class="services-content  text-center">
+					       <i class="fa fa-ambulance mb-3 fs-3 text-info  p-3 rounded-circle" aria-hidden="true"></i>
+					       <h3 class="fs-5 mb-4"><a href="#" class="text-decoration-none text-reset">Divera don</a></h3>
+						  <p class="lh-sm fs-6 mb-5 fw-lighter">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
 					   </div>
 					   </div>
 				</div>
@@ -284,16 +329,16 @@
 </section>
 		 <!-------------------appointment 
 		 section----------------------------->
-<section class="appointment-section ">
+<section class="appointment-section pt-3 pb-5 ">
 <div class="container">
-          <div class="appointment-head text-center mt-5 mb-4">
-		           <h4 class=" fw-bold fs-4 pt-3">MAKE AN APPOINTMENT</h4>
+          <div class="head-title text-center mt-4 mb-4">
+		           <h2 class=" fw-bold fs-3 pt-3">MAKE AN APPOINTMENT</h2>
 		           <p class="lh-sm fs-6 fw-lighter">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore <br>et quasi architecto beatae vitae dicta sunt explicabo.</p>
 		   </div>
 		   <div class="row">
 		   
 		         <div class="col-lg-4">
-				    <input type="text" class="form-control mb-3" placeholder="Your Name">
+				    <input type="text" class="form-control  mb-3" placeholder="Your Name">
 				 </div>
 				 <div class="col-lg-4">
 				     <input type="email" class="form-control mb-3"  placeholder="Your Email">
@@ -335,8 +380,8 @@
 		 <!-------------------departments section----------------------------->
 <section class="departments-section">
 <div class="container">
-           <div class="dept-head text-center mt-5 mb-4">
-		           <h4 class=" fw-bold fs-4">DEPARTMENTS</h4>
+           <div class="head-title text-center mt-5 mb-4">
+		           <h2 class=" fw-bold fs-3">DEPARTMENTS</h2>
 		           <p class="lh-sm fs-6 fw-lighter">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore <br>et quasi architecto beatae vitae dicta sunt explicabo.</p>
 		   </div>
 		   <div class="row">
@@ -376,47 +421,47 @@
 </div>
 </section>
 		 <!-------------------testimonals section----------------------------->
-<section class="Testimonials-section">
+<section class="Testimonials-section pt-5 pb-5">
 <div class="container">
-          <div class="testimonials-head text-center mt-5 mb-4">
-		           <h4 class=" fw-bold fs-4">TESTIMONIALS</h4>
+          <div class="head-title text-center mt-4 mb-4">
+		           <h2 class=" fw-bold fs-3">TESTIMONIALS</h2>
 		           <p class="lh-sm fs-6 fw-lighter">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore <br>et quasi architecto beatae vitae dicta sunt explicabo.</p>
 		   </div>
 		   <div class="row">
 		          <div class="col-lg-4">
 				    <div class="test-content p-2 ">
-					    <p><i class="fa fa-quote-left" aria-hidden="true"></i>       Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore,  optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor  
-						<i class="fa fa-quote-right" aria-hidden="true"></i> </p>
+					    <p class="p-3 fst-italic"><i class="fa fa-quote-left me-2" aria-hidden="true"></i>       Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore,  optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda  
+						<i class="fa fa-quote-right ms-2" aria-hidden="true"></i> </p>
 					</div>
-					<div class="test-img bg-white">
+					<div class="test-img ">
 					      <img src="image/testimonals/testimonials-4.jpg"  width="60"height="60">
-						  <div class="test-img-con">
-						     <h5>Matt Brandon</h5>
-							 <p>Freelancer</p>
+						  <div class="test-img-con ps-4 lh-1">
+						     <h5 class="fs-6 fw-bold">Matt Brandon</h5>
+							 <p class="text-muted">Freelancer</p>
 						  </div>
 					</div>
 				  </div>
 				  <div class="col-lg-4">
 				    <div class="test-content p-2">
-					    <p><i class="fa fa-quote-left" aria-hidden="true"></i>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, ci optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor  <i class="fa fa-quote-right" aria-hidden="true"></i> </p>
+					    <p class="p-3 fst-italic"><i class="fa fa-quote-left me-2" aria-hidden="true"></i>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, ci optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda   <i class="fa fa-quote-right ms-2" aria-hidden="true"></i> </p>
 					</div>
 					<div class="test-img">
 					      <img src="image/testimonals/testimonials-5.jpg" class="width="50" height="50" rounded-circle">
-						  <div class="test-img-con">
-						     <h5>John Larson</h5>
-							 <p>Entrepreneur</p>
+						  <div class="test-img-con ps-4lh-1">
+						     <h5 class="fs-6 fw-bold">John Larson</h5>
+							 <p class="text-muted">Entrepreneur</p>
 						  </div>
 					</div>
 				  </div>
 				  <div class="col-lg-4">
 				    <div class="test-content p-2">
-					    <p><i class="fa fa-quote-left" aria-hidden="true"></i>Et harum quidem rerum facilis est et expedita distinctio. Nam libero eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor  <i class="fa fa-quote-right" aria-hidden="true"></i> </p>
+					    <p class="p-3 fst-italic"><i class="fa fa-quote-left me-2" aria-hidden="true"></i>Et harum quidem rerum facilis est et expedita distinctio. Nam libero eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda   <i class="fa fa-quote-right ms-2" aria-hidden="true"></i> </p>
 					</div>
 					<div class="test-img ">
 					      <img src="image/testimonals/testimonials-1.jpg" "width="50" height="50">
-						  <div class="test-img-con">
-						     <h5>Saul Goddman</h5>
-							 <p>Ceo&Founder</p>
+						  <div class="test-img-con ps-4 lh-1">
+						     <h5 class="fs-6 fw-bold">Saul Goddman</h5>
+							 <p class="text-muted">Ceo&Founder</p>
 						  </div>
 					</div>
 				  </div>
@@ -426,52 +471,52 @@
 		 <!-------------------doctors section----------------------------->
 <section class="doctors-section pt-1 pb-5">
 <div class="container">
-          <div class="doctors-head text-center mt-4 mb-4">
-		           <h4 class="fw-bold fs-4">DOCTORS</h4>
+          <div class="head-title text-center mt-4 mb-4">
+		           <h2 class="fw-bold fs-3">DOCTORS</h2>
 		           <p class="lh-sm fs-6 fw-lighter">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore <br>et quasi architecto beatae vitae dicta sunt explicabo.</p>
 		   </div>
 		   <div class="row">
 		              <div class="col-lg-3">
-			              <div class="doc-box shadow">
+			              <div class="doc-box ">
                             <div class="doc-image">
 			                    <img src="image/doctors/doctors-1.jpg" class="w-100 height-auto"  alt="team">
 			                 </div>
 			               <div class="doc-content pt-2 pb-2 text-center lh-1 bg-white">
-			               <h4 class="fs-6 fw-bold">Walter White</h4>
-			                <p class="fs-6 fw-light">Chief Executive Officer</p>
+			               <h4 class="fs-6 mt-2 fw-bold">Walter White</h4>
+			                <p class="text-muted fw-light">Chief Executive Officer</p>
 			               </div>
 			                 </div>
                          </div>	
 						<div class="col-lg-3">
-			              <div class="doc-box shadow">
+			              <div class="doc-box ">
                             <div class="doc-image">
 			                    <img src="image/doctors/doctors-2.jpg" class="w-100 height-auto"  alt="team">
 			                 </div>
 			               <div class="doc-content pt-2 bg-white pb-2 text-center lh-1">
-			               <h4 class="fs-6 fw-bold">Sarah Jhonson</h4>
-			                <p class="fs-6 fw-light">Anesthesiologist</p>
+			               <h4 class="fs-6 mt-2 fw-bold">Sarah Jhonson</h4>
+			                <p class="text-muted fw-light">Anesthesiologist</p>
 			               </div>
 			                 </div>
                          </div>
                        <div class="col-lg-3">
-			              <div class="doc-box shadow">
+			              <div class="doc-box ">
                             <div class="doc-image">
 			                    <img src="image/doctors/doctors-3.jpg"class="w-100 height-auto" alt="team">
 			                 </div>
 			               <div class="doc-content pt-2 bg-white pb-2 text-center lh-1">
-			               <h4 class="fs-6 fw-bold">William Anderson</h4>
-			                <p class="fs-6 fw-light">Cardiology</p>
+			               <h4 class="fs-6 mt-2 fw-bold">William Anderson</h4>
+			                <p class="text-muted fw-light">Cardiology</p>
 			               </div>
 			                 </div>
                          </div>	
                         <div class="col-lg-3">
-			              <div class="doc-box shadow">
+			              <div class="doc-box ">
                             <div class="doc-image">
 			                    <img src="image/doctors/doctors-4.jpg" class="w-100 height-auto"  alt="team">
 			                 </div>
 			               <div class="doc-content pt-2 bg-white pb-2 lh-1 text-center">
-			               <h4 class="fs-6 fw-bold">Amanda Jepson</h4>
-			                <p class="fs-6 fw-light">Neurosurgeon</p>
+			               <h4 class="fs-6 mt-2 fw-bold">Amanda Jepson</h4>
+			                <p class="text-muted fw-light ">Neurosurgeon</p>
 			               </div>
 			                 </div>
                          </div>							 
@@ -481,8 +526,8 @@
 		  <!-------------------gallery section----------------------------->
 <section class="gallery-section">
 <div class="container">
-          <div class="gallery-head text-center mt-5 mb-4">
-		           <h4 class="fw-bold fs-4">GALLERY</h4>
+          <div class="head-title text-center mt-5 mb-4">
+		           <h2 class="fw-bold fs-3">GALLERY</h2>
 		           <p class="lh-sm fs-6 fw-lighter">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore <br>et quasi architecto beatae vitae dicta sunt explicabo.</p>
 		   </div>
 		  <!-- <div id="galleryslide" class="carousel slide" data-bs-ride="carousel">
@@ -547,56 +592,56 @@
 		 <!-------------------pricing section----------------------------->
 <section class="pricing-section">
 <div class="container">
-          <div class="pricing-head text-center mt-5 mb-4">
-		           <h4 class="fw-bold fs-4">PRICING</h4>
+          <div class="head-title text-center mt-5 mb-4">
+		           <h2 class="fw-bold fs-3">PRICING</h2>
 		           <p class="lh-sm fs-6 fw-lighter">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore <br>et quasi architecto beatae vitae dicta sunt explicabo.</p>
 		   </div>
 		   <div class="row">
 		         <div class="col-lg-3">
 				        <div class="card text-center">
-                              <div class="card-header fw-bold">
+                              <div class="card-header border-0 fw-bold">
                                   Free
                          </div>
                          <div class="card-body">
-                              <h5 class="card-title"><span class=" fs-3 text-info">$</span><span class="text-info fs-2 fw-bold"> 0</span><span class="fw-light">/month<span></h5>
+                              <h5 class="card-title"><span class=" fs-3 text-info"><sup class="fw-bold">$</sup></span><span class="text-info fs-2 fw-bold"> 0</span><span class="month">/month<span></h5>
                               <p class="card-text">Aida dere</p>
 							  <p class="card-text">Nec feugiat nisi</p>
 							  <p class="card-text">Nulla at volutpat dola</p>
-							  <p class="card-text fw-lighter text-decoration-line-through">Pharetra massa</p>
-							  <p class="card-text fw-lighter text-decoration-line-through">Massa ultricies mi</p>
+							  <p class="card-text line-through">Pharetra massa</p>
+							  <p class="card-text line-through">Massa ultricies mi</p>
                                
                          </div>
-                    <div class="card-footer text-muted">
-                         <a href="#" class="btn btn-info text-white ps-2 pe-3">Buy Now</a>
+                    <div class="card-footer border-0 text-muted">
+                         <a href="#" class="btn btn-info text-white ps-4 pe-4">Buy Now</a>
                      </div>
                     </div>
 				 </div>
 				 <div class="col-lg-3">
 				        <div class="card text-center">
-                              <div class="card-header fw-bold text-white bg-info">
+                              <div class="card-header border-0 fw-bold text-white bg-info">
                                   Business
                          </div>
                          <div class="card-body">
-                              <h5 class="card-title"><span class=" fs-3 text-info">$</span><span class="text-info fs-2 fw-bold"> 19</span><span class="fw-light">/month<span></h5>
+                              <h5 class="card-title"><span class=" fs-3 text-info"><sup class="fw-bold">$</sup></span><span class="text-info fs-2 fw-bold"> 19</span><span class="month">/month<span></h5>
                               <p class="card-text">Aida dere</p>
 							  <p class="card-text">Nec feugiat nisi</p>
 							  <p class="card-text">Nulla at volutpat dola</p>
 							  <p class="card-text">Pharetra massa</p>
-							  <p class="card-text  fw-lighter text-decoration-line-through">Massa ultricies mi</p>
+							  <p class="card-text line-through">Massa ultricies mi</p>
                                
                          </div>
-                    <div class="card-footer text-muted">
-                         <a href="#" class="btn btn-info text-white ps-2 pe-3">Buy Now</a>
+                    <div class="card-footer border-0 text-muted">
+                         <a href="#" class="btn btn-info text-white ps-4 pe-4">Buy Now</a>
                      </div>
                     </div>
 				 </div>
 				 <div class="col-lg-3">
 				        <div class="card text-center">
-                              <div class="card-header fw-bold">
+                              <div class="card-header border-0 fw-bold">
                                  Developer
                          </div>
                          <div class="card-body">
-                              <h5 class="card-title"><span class=" fs-3 text-info">$</span><span class="text-info fs-2 fw-bold"> 29</span><span class="fw-light">/month<span></h5>
+                              <h5 class="card-title"><span class=" fs-3 text-info"><sup class="fw-bold">$</sup></span><span class="text-info fs-2 fw-bold"> 29</span><span class="month">/month<span></h5>
                               <p class="card-text">Aida dere</p>
 							  <p class="card-text">Nec feugiat nisi</p>
 							  <p class="card-text">Nulla at volutpat dola</p>
@@ -604,18 +649,19 @@
 							  <p class="card-text ">Massa ultricies mi</p>
                                
                          </div>
-                    <div class="card-footer text-muted">
-                         <a href="#" class="btn btn-info text-white ps-2 pe-3">Buy Now</a>
+                    <div class="card-footer border-0 text-muted">
+                         <a href="#" class="btn btn-info text-white ps-4 pe-4">Buy Now</a>
                      </div>
                     </div>
 				 </div>
 				 <div class="col-lg-3">
 				        <div class="card text-center">
-                              <div class="card-header fw-bold">
+                              <div class="card-header border-0 fw-bold">
                                   Ultimate
                          </div>
                          <div class="card-body">
-                              <h5 class="card-title"><span class=" fs-3 text-info">$</span><span class="text-info fs-2 fw-bold"> 49</span><span class="fw-light">/month<span></h5>
+						       <span class="advanced">Advanced</span>
+                              <h5 class="card-title"><span class=" fs-3 text-info"><sup class="fw-bold">$</sup></span><span class="text-info fs-2 fw-bold"> 49</span><span class="month">/month<span></h5>
                               <p class="card-text">Aida dere</p>
 							  <p class="card-text">Nec feugiat nisi</p>
 							  <p class="card-text">Nulla at volutpat dola</p>
@@ -623,8 +669,8 @@
 							  <p class="card-text">Massa ultricies mi</p>
                                
                          </div>
-                    <div class="card-footer text-muted">
-                         <a href="#" class="btn btn-info text-white ps-2 pe-3">Buy Now</a>
+                    <div class="card-footer border-0 text-muted">
+                         <a href="#" class="btn btn-info text-white ps-4 pe-4">Buy Now</a>
                      </div>
                     </div>
 				 </div>
@@ -634,8 +680,8 @@
 		  <!-------------------questions section----------------------------->
 <section class="question-section">
 <div class="container pb-5 ">
-          <div class="question-head text-center pt-5 mt-5 mb-4">
-		           <h4 class=" fw-bold fs-4">FREQUENTLY ASKED QUESTION</h4>
+          <div class="head-title text-center pt-5 mt-5 mb-4">
+		           <h2 class=" fw-bold fs-3">FREQUENTLY ASKED QUESTION</h2>
 		           <p class="lh-sm fs-6 fw-lighter">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore <br>et quasi architecto beatae vitae dicta sunt explicabo.</p>
 		   </div>  
 			<div class="accordion accordion-flush " id="questionaccordion">
@@ -669,7 +715,7 @@
                                          Therefore always free from repetition, injected humour
                                    </button>
                                    </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse " aria-labelledby="headingThree" data-bs-parent="questionaccordion">
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="questionaccordion">
                                 <div class="accordion-body">
                                    dhgdhajg hgdedfg yyfdytwedgyt fwdtyfy fygscfayh fyacsfyt gyvfysdg gcuqahi gujcg  
                               </div>
@@ -715,34 +761,36 @@
 </div>
 </section>
 		   <!-------------------contact section----------------------------->
-<section class="contact-section">
+<section class="contact-section pt-4 pb-5">
 <div class="container">
-          <div class="contact-head text-center mt-5 mb-4">
-		           <h4 class="fw-bold fs-4">CONTACT</h4>
+          <div class="head-title text-center mt-5 mb-4">
+		           <h2 class="fw-bold fs-3">CONTACT</h2>
 		           <p class="lh-sm fs-6 fw-lighter">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore <br>et quasi architecto beatae vitae dicta sunt explicabo.</p>
 		   </div>
+</div>
 		   <div class="contact-map">
-                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.9081220748876!2d80.06414081430326!3d12.849210521029889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52f7d4dbe29781%3A0x4a1ae5b865edb306!2sFabevy!5e0!3m2!1sen!2sin!4v1668764338186!5m2!1sen!2sin" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>			
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.9081220748876!2d80.06414081430326!3d12.849210521029889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52f7d4dbe29781%3A0x4a1ae5b865edb306!2sFabevy!5e0!3m2!1sen!2sin!4v1668764338186!5m2!1sen!2sin" style="border:0; width:100%;height:350px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>			
 				</div>
-		 <div class="row mt-4">
+<div class="container">
+		 <div class="row pt-4 pb-4">
 		    <div class="col-lg-6">
-			    <div class="con-address shadow text-center pt-2 pb-2 lh-1">
-				  <i class="fa fa-map-marker fs-4 text-info  p-2 border border-info rounded-circle" aria-hidden="true"></i>
+			    <div class="con-detail  text-center p-4 lh-1">
+				  <i class="fa fa-map-marker" aria-hidden="true"></i>
 				  <h6 class="pt-2">Our Address</h6>
 				  <p class="fw-light">A108 Adam Street,New York,NY 535022</p>
 				</div>
 				<div class="row mt-3 ">
 				    <div class="col-lg-6">
-				        <div class="con-email shadow text-center pt-2 pb-2 lh-1">
-						  <i class="fa fa-envelope-o fs-4 text-info  p-2 border border-info rounded-circle"" aria-hidden="true"></i>
+				        <div class="con-detail text-center p-4 lh-1">
+						  <i class="fa fa-envelope-o" aria-hidden="true"></i>
 						   <h6 class="pt-2">Email Us</h6>
 						   <p class="fw-light">info@example.com</p>
 						   <p class="fw-light">contact@example.com</p>
 				        </div>
 				    </div>
-					<div class="col-lg-6 ">
-				        <div class="con-call shadow text-center pt-2 pb-2 lh-1">
-						   <i class="fa fa-phone fs-4 text-info border  border-info p-2 rounded-circle"" aria-hidden="true"></i>
+					<div class="col-lg-6">
+				        <div class="con-detail  text-center p-4 lh-1">
+						   <i class="fa fa-phone" aria-hidden="true"></i>
 						   <h6 class="pt-2">Call Us</h6>
 						   <p class="fw-light lh-1">+1 5589 55488 55</p>
 						   <p class="fw-light ">+1 6678 254445 41</p>
@@ -750,7 +798,7 @@
 				    </div>
 				</div>
 			 </div>
-			 <div class="col-lg-6 p-3 shadow">
+			 <div class="col-lg-6 p-3 con-detail">
 			 <form>
 			  <div class="row mt-1">
 			  
@@ -779,28 +827,28 @@
 </div>
 </section>
 		    <!------------------footer section----------------------------->
-<section class="footer-section bg-light mt-5">
+<section class="footer-section bg-light pt-4 pb-4">
 <div class="container">
 <div class="row">
       <div class="col-lg-3">
 	  <div class="address mt-3 mb-3">
-	          <h2 class="fs-6 fw-bold">Medicio</h2>
+	          <h2 class="fs-4 mb-3 fw-bold">Medicio</h2>
 	          <p class="text-muted">A108 Adam Street<br>
 	           NY535022,USA</p>
 	           <p class="text-muted"><b>Phone:</b>+1 5589 55488 55<br><b>Email:</b>info@example.com</p>
 			   <div class="ad-icons">
-			   <a href="#" class="bg-info rounded p-2"><i class="fa fa-twitter text-white" aria-hidden="true"></i></a>
-			 <a href="#" class="bg-info rounded p-2"><i class="fa fa-facebook text-white" aria-hidden="true"></i></a>
-			 <a href="#" class="bg-info rounded p-2"><i class="fa fa-instagram text-white" aria-hidden="true"></i></a>
-			 <a href="#" class="bg-info rounded p-2"><i class="fa fa-skype text-white" aria-hidden="true"></i></a>
-			 <a href="#" class="bg-info rounded p-2"><i class="fa fa-linkedin text-white" aria-hidden="true"></i></a>
+			   <a href="#" class="bg-info "><i class="fa fa-twitter text-white" aria-hidden="true"></i></a>
+			 <a href="#" class="bg-info "><i class="fa fa-facebook text-white" aria-hidden="true"></i></a>
+			 <a href="#" class="bg-info "><i class="fa fa-instagram text-white" aria-hidden="true"></i></a>
+			 <a href="#" class="bg-info "><i class="fa fa-skype text-white" aria-hidden="true"></i></a>
+			 <a href="#" class="bg-info"><i class="fa fa-linkedin text-white" aria-hidden="true"></i></a>
 			 </div>
 	   </div>
 	  </div>
 	  <div class="col-lg-2">
 	   <div class="links mt-3">
-	         <h2 class="fs-6 fw-bold">Useful Links</h2>
-			 <ul>
+	         <h2 class="fs-6 mb-3 fw-bold">Useful Links</h2>
+			 <ul class="p-0">
 			<li><i class="fa fa-angle-right text-info" aria-hidden="true"></i><a href="#" class="text-decoration-none text-muted"> Home</a></li>
 			<li><i class="fa fa-angle-right text-info" aria-hidden="true"></i><a href="#" class="text-decoration-none text-muted"> About us</a></li>
 			 <li><i class="fa fa-angle-right text-info" aria-hidden="true"></i><a href="#" class="text-decoration-none text-muted"> Services</a></li>
@@ -811,9 +859,9 @@
 	  </div>
 	  <div class="col-lg-3">
 	  <div class="services mt-3">
-		     <h2 class="fs-6 fw-bold">Our Services</h2>
-			 <ul>
-			   <li> <i class="fa fa-angle-right text-info" aria-hidden="true"></i><a href="#" class="text-decoration-none text-muted">  Web Desgin</a></li>
+		     <h2 class="fs-6 mb-3 fw-bold">Our Services</h2>
+			 <ul class="p-0">
+			   <li > <i class="fa fa-angle-right text-info" aria-hidden="true"></i><a href="#" class="text-decoration-none text-muted">  Web Desgin</a></li>
 			   <li><i class="fa fa-angle-right text-info" aria-hidden="true"></i><a href="#" class="text-decoration-none text-muted">  Web Development</a></li>
 			 <li><i class="fa fa-angle-right text-info" aria-hidden="true"></i><a href="#" class="text-decoration-none text-muted">  Product Management</a></li>
 			 <li><i class="fa fa-angle-right text-info" aria-hidden="true"></i><a href="#" class="text-decoration-none text-muted">  Marketing</a></li>
@@ -823,7 +871,7 @@
 	  </div>
 	  <div class=" col-lg-4">
 	  <div class="networks mt-3">
-		     <h2 class="fs-6 fw-bold">Our Newsletter</h2>
+		     <h2 class="fs-6  mb-3 fw-bold">Our Newsletter</h2>
 			 <p class="text-muted">Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
 			 <form class="subscribe-form">
 			 <input type="email" name="email">
