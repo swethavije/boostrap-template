@@ -32,19 +32,19 @@
 		        <!-------header bottom------>
 				<div class="nav-bar bg-white">
                     <div class="container p-2">
-					<div class="row">
+					<div class="row align-items-center">
 					<div class="logo col-lg-2">
                     <a href="#">
                                     <img src="image/logo.png" alt="pic" width="125" height="auto"></a>
 					</div>
 					<div class="menu col-lg-7">
 					<ul class="nav justify-content-end ">
-					     <li class="nav-items"><a class="nav-link text-info  fw-bold active" href="#">Home</a></li>
-						 <li class="nav-items fs-6"><a class="nav-link text-muted" href="#">About</a></li>
-						 <li class="nav-items fs-6"><a class="nav-link text-muted" href="#">Services</a></li>
-						 <li class="nav-items fs-6"><a class="nav-link text-muted" href="#">Departments</a></li>
-						 <li class="nav-items fs-6"><a class="nav-link text-muted" href="#">Doctors</a></li>
-						 <li class="nav-items dropdown fs-6"><a class="nav-link text-muted" href="#">DropDown<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+					     <li class="nav-items"><a class="nav-links text-info  fw-bold active" href="#">Home</a></li>
+						 <li class="nav-items fs-6"><a class=" nav-links text-muted" href="#">About</a></li>
+						 <li class="nav-items fs-6"><a class="nav-links text-muted" href="#">Services</a></li>
+						 <li class="nav-items fs-6"><a class=" nav-links text-muted" href="#">Departments</a></li>
+						 <li class="nav-items fs-6"><a class="nav-links text-muted" href="#">Doctors</a></li>
+						 <li class="nav-items dropdown fs-6"><a class=" nav-links text-muted" href="#">DropDown<i class="fa fa-angle-down" aria-hidden="true"></i></a>
 						  <ul class="dropdown-nav">
 						      <li><a href="#">Drop Down 1</a></li>
 							  <li class="dropdown-sub"><a href="#">Deep Drop Down        <i class="fa fa-angle-right" aria-hidden="true"></i></a>
@@ -61,7 +61,7 @@
 							  <li><a href="#">Drop Down 5</a></li>
 						</ul>
 						 </li>
-						 <li class="nav-items fs-6"><a class="nav-link text-muted" href="#">Contact</a></li>
+						 <li class="nav-items fs-6"><a class="nav-links text-muted" href="#">Contact</a></li>
                     </ul> 
 					</div>
 					<div class="col-lg-3 text-end ">
@@ -169,12 +169,13 @@
 		           <p class="lh-sm fs-6 ">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo <br>et quasi architecto beatae vitae dicta sunt explicabo.</p>
 		   </div>
 		   <div class="row">
-		        <div class="col-lg-6">
-				  <img  src="image/about.jpg"class="w-100 height-auto">
+		        <div class="col-lg-6 about-us-image">
+				
+				 
 				</div>
 				<div class="col-lg-6">
 				     <div class="about-content">
-				              <h3 class="fs-4 fw-bold">Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+				              <h3 class="fs-3 fw-bold">Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
 				              <p class="fst-italic"><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua,</i>.</p>
 				 <ul>
 				      <li class="pb-3"><i class="fa fa-check-circle-o fs-5 blue" aria-hidden="true"></i>       Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
@@ -248,7 +249,7 @@
 <div class="container">
         <div class="row">
 				<div class="col-lg-6" style="padding: 28px 33px 0px;">
-				       <div class="about3-content pb-3 d-flex">
+				       <div class="about3-content pb-4 d-flex">
 				        <i class="fa fa-file-text  pt-2 fs-2 blue " aria-hidden="true"></i>
 					   <div class="about3-con  ps-3">
 				         <h4>Est labore ad</h4>
@@ -256,7 +257,7 @@
 						 pariatur laboris nisi ut aliquip</p>
 					  </div>
 				    </div>
-					<div class="about3-content  pb-3 d-flex ">
+					<div class="about3-content  pb-4 d-flex ">
 				       <i class="fa fa-cube pt-2  fs-2 blue" aria-hidden="true"></i>
 					   <div class="about3-con ps-3">
 				          <h4>Harum esse qui</h4>
@@ -264,7 +265,7 @@
 						  culpa qui officia deserunt</p>
 					  </div>
 				    </div>
-					<div class="about3-content pb-3 d-flex">
+					<div class="about3-content pb-4 d-flex">
 				      <i class="fa fa-picture-o pt-2 fs-2 blue" aria-hidden="true"></i>
 					  <div class="about3-con ps-3">
 				          <h4>Aut occaecati</h4>
@@ -281,8 +282,8 @@
 					  </div>
 				    </div>
 				</div>
-				      <div class="col-lg-6">
-				         <img src="image/features.jpg" class="w-100 height-auto">
+				      <div class="col-lg-6 about3-image">
+				        
 				       </div>
 		</div>
 </div>
@@ -502,9 +503,12 @@
 		           <p class="lh-sm fs-6">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo <br>et quasi architecto beatae vitae dicta sunt explicabo.</p>
 		   </div>
 		   <!------testimonial slide---->
-		  <!--- <div id="testimonalslide" class="carousel slide" data-bs-ride="carousel">
+		  <div id="testimonalslide" class="carousel slide" data-bs-ride="carousel">
 		    <div class="carousel-inner">
-		          <div class=" carousel-item car active ">
+		
+		          <div class=" carousel-item active ">
+				  <div class="row">
+				  <div class="col-lg-4">
 				    <div class="test-content p-2 ">
 					    <p class="p-3 fst-italic"><i class="fa fa-quote-left me-2" aria-hidden="true"></i>       Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore,  optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda  
 						<i class="fa fa-quote-right ms-2" aria-hidden="true"></i> </p>
@@ -517,9 +521,9 @@
 						  </div>
 					</div>
 				  </div>
-				  <div class=" carousel-item car">
+				  <div class="col-lg-4">
 				    <div class="test-content p-2">
-					    <p class="p-3 fst-italic"><i class="fa fa-quote-left me-2" aria-hidden="true"></i>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, ci optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda   <i class="fa fa-quote-right ms-2" aria-hidden="true"></i> </p>
+					    <p class="p-3 fst-italic"><i class="fa fa-quote-left me-2" aria-hidden="true"></i>Et harum est et expedita distinctio. Nam libero tempore, ci optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda   <i class="fa fa-quote-right ms-2" aria-hidden="true"></i> </p>
 					</div>
 					<div class="test-img">
 					      <img src="image/testimonals/testimonials-5.jpg" class="width="50" height="50" rounded-circle">
@@ -529,7 +533,7 @@
 						  </div>
 					</div>
 				  </div>
-				  <div class=" carousel-item car">
+				  <div class="col-lg-4">
 				    <div class="test-content p-2">
 					    <p class="p-3 fst-italic"><i class="fa fa-quote-left me-2" aria-hidden="true"></i>Et harum quidem rerum facilis est et expedita distinctio. Nam libero eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda   <i class="fa fa-quote-right ms-2" aria-hidden="true"></i> </p>
 					</div>
@@ -541,52 +545,60 @@
 						  </div>
 					</div>
 				  </div>
-		  </div>
+				 </div>
+				 </div>
+				 <!----sec items--->
+				 
+				        <div class=" carousel-item ">
+			     <div class="row">
+				  <div class="col-lg-4">
+				    <div class="test-content p-2 ">
+					    <p class="p-3 fst-italic"><i class="fa fa-quote-left me-2" aria-hidden="true"></i> Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.   
+						<i class="fa fa-quote-right ms-2" aria-hidden="true"></i> </p>
+					</div>
+					<div class="test-img ">
+					      <img src="image/testimonals/testimonials-2.jpg"  width="60"height="60">
+						  <div class="test-img-con ps-4 lh-1">
+						     <h5 class="fs-6 fw-bold">Sara Wilsson</h5>
+							 <p class="text-muted">Desginer</p>
+							 <p class="text-muted"></p>
+						  </div>
+					</div>
+				  </div>
+				  <div class="col-lg-4">
+				    <div class="test-content p-2">
+					    <p class="p-3 fst-italic"><i class="fa fa-quote-left me-2" aria-hidden="true"></i> Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.  <i class="fa fa-quote-right ms-2" aria-hidden="true"></i> </p>
+					</div>
+					<div class="test-img">
+					      <img src="image/testimonals/testimonials-3.jpg" class="width="50" height="50" rounded-circle">
+						  <div class="test-img-con ps-4 lh-1">
+						     <h5 class="fs-6 fw-bold">Jena Karlis</h5>
+							 <p class="text-muted">Store Owner</p>
+						  </div>
+					</div>
+				  </div>
+				  <div class="col-lg-4">
+				    <div class="test-content p-2">
+					    <p class="p-3 fst-italic"><i class="fa fa-quote-left me-2" aria-hidden="true"></i>Et harum quidem rerum facilis est et expedita distinctio. Nam libero eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda   <i class="fa fa-quote-right ms-2" aria-hidden="true"></i> </p>
+					</div>
+					<div class="test-img ">
+					      <img src="image/testimonals/testimonials-1.jpg" "width="50" height="50">
+						  <div class="test-img-con ps-4 lh-1">
+						     <h5 class="fs-6 fw-bold">Saul Goddman</h5>
+							 <p class="text-muted">Ceo&Founder</p>
+						  </div>
+					</div>
+				  </div>
+				 </div>
+				 </div>
+				     </div>
 		         <div class="carousel-indicators">
                                <button type="button" data-bs-target="#testimonalslide" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                                 <button type="button" data-bs-target="#testimonalslide" data-bs-slide-to="1" aria-label="Slide 2"></button>
                                  <button type="button" data-bs-target="#testimonalslide" data-bs-slide-to="2" aria-label="Slide 3"></button>
                   </div>
-		  </div>--->
-		  <div class="row">
-		       <div class="col-lg-4">
-			             <div class="test-content p-2 ">
-					    <p class="p-3 fst-italic"><i class="fa fa-quote-left me-2" aria-hidden="true"></i>       Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore,  optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda  
-						<i class="fa fa-quote-right ms-2" aria-hidden="true"></i> </p>
-					</div>
-					<div class="test-img ">
-					      <img src="image/testimonals/testimonials-4.jpg"  width="60"height="60">
-						  <div class="test-img-con ps-4 lh-1">
-						     <h5 class="fs-6 fw-bold">Matt Brandon</h5>
-							 <p class="text-muted">Freelancer</p>
-						  </div>
-			   </div>
-			   </div>
-			   <div class="col-lg-4">
-			              <div class="test-content p-2">
-					    <p class="p-3 fst-italic"><i class="fa fa-quote-left me-2" aria-hidden="true"></i>Et harum quidem rerum facilis est et  Nam libero tempore, ci optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda   <i class="fa fa-quote-right ms-2" aria-hidden="true"></i> </p>
-					</div>
-					<div class="test-img">
-					      <img src="image/testimonals/testimonials-5.jpg" class="width="50" height="50" rounded-circle">
-						  <div class="test-img-con ps-4 lh-1">
-						     <h5 class="fs-6 fw-bold">John Larson</h5>
-							 <p class="text-muted">Entrepreneur</p>
-						  </div>
-			   </div>
-			   </div>
-			   <div class="col-lg-4">
-			            <div class="test-content p-2">
-					    <p class="p-3 fst-italic"><i class="fa fa-quote-left me-2" aria-hidden="true"></i>Et harum quidem rerum facilis est et expedita distinctio. Nam libero eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda   <i class="fa fa-quote-right ms-2" aria-hidden="true"></i> </p>
-					</div>
-					<div class="test-img ">
-					      <img src="image/testimonals/testimonials-1.jpg" "width="50" height="50">
-						  <div class="test-img-con ps-4 lh-1">
-						     <h5 class="fs-6 fw-bold">Saul Goddman</h5>
-							 <p class="text-muted">Ceo&Founder</p>
-						  </div>
-			   </div>
-			   </div>
-          </div>		  
+		  </div>
+		 	  
 		   
 
 </div>
@@ -677,32 +689,6 @@
 		           <h2 class="fw-bold fs-3">GALLERY</h2>
 		           <p class="lh-sm fs-6">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo  <br>et quasi architecto beatae vitae dicta sunt explicabo.</p>
 		   </div>
-		  <!-- <div id="galleryslide" class="carousel slide" data-bs-ride="carousel">
-               <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#galleryslide" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 0"></button>
-                   <button type="button" data-bs-target="#galleryslide" data-bs-slide-to="1" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#galleryslide" data-bs-slide-to="2" aria-label="Slide 2"></button>
-				  <button type="button" data-bs-target="#galleryslide" data-bs-slide-to="3" aria-label="Slide 3"></button>
-				  <button type="button" data-bs-target="#galleryslide" data-bs-slide-to="4" aria-label="Slide 4"></button>
-               </div>
-                <div class="carousel-inner">
-                        <div class="carousel-item active">
-                              <img src="image/gallery/gallery-1.jpg" class="d-block w-50 height-50" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                               <img src="image/gallery/gallery-2.jpg" class="d-block w-50 height-50" alt="...">
-                        </div>
-                         <div class="carousel-item">
-                                <img src="image/gallery/gallery-3.jpg" class="d-block w-50 height-50" alt="...">
-                          </div>
-						  <div class="carousel-item">
-                                <img src="image/gallery/gallery-4.jpg" class="d-block w-50 height-50" alt="...">
-                          </div>
-						  <div class="carousel-item">
-                                <img src="image/gallery/gallery-5.jpg" class="d-block w-50 height-50" alt="...">
-                          </div>
-               </div>
-			 </div>-->
 		<div class="row">
 		    <div class="col-lg-2">
 			    <img src="image/gallery/gallery-1.jpg"  class="w-100 height-auto"> 
@@ -722,8 +708,8 @@
 			<div class="col-lg-2">
 			        <img src="image/gallery/gallery-6.jpg"  class="w-100 height-auto">
 			</div>
-			 <div id="galleryslide" class="carousel slide" data-bs-ride="carousel">
-               <div class="carousel-indicators">
+			 <!--<div id="galleryslide" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
                   <button type="button" data-bs-target="#galleryslide" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 0"></button>
                    <button type="button" data-bs-target="#galleryslide" data-bs-slide-to="1" aria-label="Slide 1"></button>
                   <button type="button" data-bs-target="#galleryslide" data-bs-slide-to="2" aria-label="Slide 2"></button>
@@ -731,7 +717,7 @@
 				  <button type="button" data-bs-target="#galleryslide" data-bs-slide-to="4" aria-label="Slide 4"></button>
 				  <button type="button" data-bs-target="#galleryslide" data-bs-slide-to="5" aria-label="Slide 5"></button>
                </div>
-		</div>
+		</div>--->
 			 
              
 </div>
@@ -835,12 +821,10 @@
 				<div class="accordion-item">
 					      <h2 class="accordion-header" id="headingOne">
 						     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-							 <!--<i class="fa fa-angle-down" aria-hidden="true"></i> 
-							 <i class="fa fa-angle-up" aria-hidden="true"></i>-->
 							 Lorem Ipsum is therefore always free from repetition ?
 							   </button>
 							   </h2>
-							   <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="questionaccordion">
+							   <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#questionaccordion">
 							     <div  class="accordion-body">
 								    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
 								     </div>
@@ -852,7 +836,7 @@
                                          Fore always free from repetition, injected humour?
                                    </button>
                                    </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="questionaccordion">
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#questionaccordion">
                                 <div class="accordion-body">
                                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
                               </div>
@@ -864,7 +848,7 @@
                                          Therefore always free from repetition, injected humour?
                                    </button>
                                    </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="questionaccordion">
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#questionaccordion">
                                 <div class="accordion-body">
                                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi 
                               </div>
@@ -876,7 +860,7 @@
                                          Erefore always free from repetition, injected humour?
                                    </button>
                                    </h2>
-                            <div id="collapseFour" class="accordion-collapse collapse " aria-labelledby="headingFour" data-bs-parent="questionaccordion">
+                            <div id="collapseFour" class="accordion-collapse collapse " aria-labelledby="headingFour" data-bs-parent="#questionaccordion">
                                 <div class="accordion-body">
                                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
                               </div>
@@ -888,7 +872,7 @@
                                          Therefore always free from repetition, injected humour?
                                    </button>
                                    </h2>
-                            <div id="collapseFive" class="accordion-collapse collapse " aria-labelledby="headingFive" data-bs-parent="questionaccordion">
+                            <div id="collapseFive" class="accordion-collapse collapse " aria-labelledby="headingFive" data-bs-parent="#questionaccordion">
                                 <div class="accordion-body">
                                    Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in 
                               </div>
@@ -900,7 +884,7 @@
                                          Herefore always free from repetition, injected humour ?
                                    </button>
                                    </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse"  aria-labelledby="headingSix" data-bs-parent="questionaccordion">
+                            <div id="collapseSix" class="accordion-collapse collapse"  aria-labelledby="headingSix" data-bs-parent="#questionaccordion">
                                 <div class="accordion-body">
                                    Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
                               </div>

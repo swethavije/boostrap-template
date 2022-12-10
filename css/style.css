@@ -20,7 +20,19 @@
 	color:#3fbbc0 ;
 }
 .banner-section{
-	background-color:#3fbbc0;
+	background-color:#3fbbc0 ;
+}
+.nav-bar{
+	position:fixed;
+	top:0px;
+	left:0;
+	right:0;
+	z-index:997;
+}
+.header-top{
+	position:fixed-top;
+	z-index:996;
+	
 }
 .header-top{
 	background-color:#3fbbc0;
@@ -38,6 +50,24 @@
 .carousel-caption p{
        color: #555555;
 }
+.about-us-image{
+	     background-image:url(../image/about.jpg);
+	     background-repeat:no-repeat;
+	     background-size:cover;
+	     background-position:center top;
+	   /*  background-attachment:fixed;
+		 width:100%;
+		 height:auto;*/
+}
+.about3-image{
+	     background-image:url(../image/features.jpg);
+	     background-repeat:no-repeat;
+	     background-size:cover;
+	     background-position:center top;
+}
+.about-content{
+	padding:8px 0px 0px 10px;
+}
 .main-banner-icon{
 	background: rgba(63, 187, 192, 0.8);
     border-radius: 50px;
@@ -53,9 +83,10 @@
     color:#3fbbc0 !important;	
 }
 .menu a{
-	padding-left:5px;
+	padding-left:19px;
 	font-size:15px;
 	font-weight:500;
+	text-decoration:none;
 }
  .head-title h2::after{
 	content: " ";
@@ -122,12 +153,12 @@
 	font-weight:400;
 }
 .about-content ul{
-	font-size: 14px;
+	font-size: 15px;
     font-weight: 400;
     line-height: 20px;
 }
 .about-content p{
-	font-size:13px;
+	font-size:15px;
 	line-height:20px;
 	font-weight:400;
 }
@@ -340,14 +371,14 @@
 	padding:30px;
 }
 .about3-con p{
-	font-size: 14px;
+	font-size: 16px;
    color: #6c757df0;
 } 
 .about3-content i{
    min-width:35px;
 }  
 .about3-con h4{
-    	font-size:18px;
+    	font-size:20px;
       font-weight: 700;
 }
     /*pricing*/
@@ -534,7 +565,6 @@
 .nav-tabs .nav-link{
 	display:block;
 	margin-bottom:0px;
-	border-left:5px solid #fff;
 	border:none;
 	background:0;
 }
