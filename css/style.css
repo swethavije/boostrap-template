@@ -22,7 +22,7 @@
 .banner-section{
 	background-color:#3fbbc0 ;
 }
-.nav-bar{
+/*.nav-bar{
 	position:fixed;
 	top:0px;
 	left:0;
@@ -33,7 +33,7 @@
 	position:fixed-top;
 	z-index:996;
 	
-}
+}*/
 .header-top{
 	background-color:#3fbbc0;
 }
@@ -84,7 +84,7 @@
 }
 .menu a{
 	padding-left:19px;
-	font-size:15px;
+	font-size:14px;
 	font-weight:500;
 	text-decoration:none;
 }
@@ -410,10 +410,33 @@
     background: #3fbbc0;
     color: #fff;
 }
+ .apt-btn{
+	 margin-left:30px;
+ }
 .month{
 	color: #bababa;
     font-size: 16px;
     font-weight: 300;
+}
+.dots{
+	text-align:center;
+	padding:20px 30px;
+}
+.dots .dots-box{
+	display:inline-block;
+	width:12px;
+	height:12px;
+	background-color:white;
+	border: 2px solid #3fbbc0;
+	border-radius:50%;
+	margin:5px 5px;
+	cursor:pointer;
+}
+.dots-box .active{
+	background-color: #3fbbc0;
+}
+.dots .dots-box:hover{
+	background-color: #3fbbc0;
 }
 /*.con-icons{
 	dis

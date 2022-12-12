@@ -11,6 +11,7 @@
 	     <link rel="stylesheet" href="css/reset.css">
 		 <link rel="stylesheet" href="css/bootstrap.min.css">
 		 <link rel="stylesheet" href="css/style.css"> 
+		  <link rel="stylesheet" href="css/responsive.css"> 
 </head>
 <body>
          <!-------------------header section----------------------------->
@@ -19,7 +20,7 @@
       <div class="header-top  text-white ">
 		   <div class="container">
 		        <div class="head-content d-flex justify-content-between align-items-center pt-2">
-				<div class="left">
+				<div class="left d-none d-md-block d-lg-block">
 		           <p><i class="fa fa-clock-o" aria-hidden="true"></i>  Monday-Sunday,8AM to 10PM</p>
 				</div>
 				<div class="head-right">
@@ -31,13 +32,13 @@
 		</div>
 		        <!-------header bottom------>
 				<div class="nav-bar bg-white">
-                    <div class="container p-2">
+                    <div class="container p-3">
 					<div class="row align-items-center">
-					<div class="logo col-lg-2">
+					<div class="logo col-lg-2  col-6">
                     <a href="#">
                                     <img src="image/logo.png" alt="pic" width="125" height="auto"></a>
 					</div>
-					<div class="menu col-lg-7">
+					<div class="menu col-lg-7 d-none   d-lg-block">
 					<ul class="nav justify-content-end ">
 					     <li class="nav-items"><a class="nav-links text-info  fw-bold active" href="#">Home</a></li>
 						 <li class="nav-items fs-6"><a class=" nav-links text-muted" href="#">About</a></li>
@@ -64,13 +65,63 @@
 						 <li class="nav-items fs-6"><a class="nav-links text-muted" href="#">Contact</a></li>
                     </ul> 
 					</div>
-					<div class="col-lg-3 text-end ">
-                          <button type="button" width="20" height="20" class="btn btn-info text-white">Make an Appointment</button>					
+					
+					<div class="col-lg-3 d-flex  col-6 ">
+					
+                          <button type="button"  class="btn btn-info d-flex  apt-btn align-items-center  text-white"><span class="d-none d-lg-block d-md-block">Make an</span> <span> Appointment</span></button>
+						  
+                           <div class="menu-button  d-block d-lg-none">
+						             <a class="btn fs-1" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                                               <i class="fa fa-bars" aria-hidden="true"></i>
+                                          </a>
+
+
+
+                                     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                                     <div class="offcanvas-header">
+                                         
+                                           <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                        </div>
+                                  <div class="offcanvas-body">
+                                     <div class="menu d-block">
+					                 <ul class="nav d-block text-start ">
+					                    <li class="nav-items "><a class="nav-links text-info  fw-bold  active" href="#">Home</a></li>
+						                <li class="nav-items fs-1"><a class=" nav-links  text-reset   " href="#">About</a></li>
+						               <li class="nav-items fs-1"><a class="nav-links text-reset " href="#">Services</a></li>
+						                        <li class="nav-items fs-1"><a class="text-reset nav-links " href="#">Departments</a></li>
+                                    <li class="nav-items fs-1"><a class="nav-links text-reset" href="#">Doctors</a></li>
+						                <li class="nav-items dropdown fs-1"><a class="text-reset nav-links" href="#">DropDown<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+						                <ul class="dropdown-nav">
+						                   <li><a href="#">Drop Down 1</a></li>
+							                   <li class="dropdown-sub"><a href="#">Deep Drop Down        <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                 <ul class="dropdown-sub-nav">
+						      <li><a href="#">Deep Drop Down 1</a></li>
+							  <li><a href="#">Deep Drop Down 2</a></li>
+							  <li><a href="#">Deep Drop Down 3 </a></li>
+							  <li><a href="#">Deep Drop Down 4</a></li>
+							  <li><a href="#">Deep Drop Down 5</a></li>
+						</ul>
+							  </li>
+							  <li><a href="#">Drop Down 3</a></li>
+							  <li><a href="#">Drop Down 4</a></li>
+							  <li><a href="#">Drop Down 5</a></li>
+						</ul>
+						 </li>
+						 <li class="nav-items fs-1"><a class="nav-links text-reset " href="#">Contact</a></li>
+                    </ul> 
+					</div>
+					   
+                                </div>
+                               </div>
+                            </div>						   
+                    </div>
+					
+   
                     
 					</div>
-   
-                    </div>
                 </div>
+				</div>
+				
 
 </section>
 	     <!------------------main banner section----------------------------->
@@ -85,23 +136,23 @@
                               </div>
                               <div class="carousel-inner">
                                    <div class="carousel-item main-bg-one w-100 active">
-                                           <div class="carousel-caption  border-top border-info border-3 text-center">
+                                           <div class="carousel-caption  border-top border-info border-3 text-center p-4">
                                                  <h2>Welcome to Medicio</h2>
-						                        <p>Ut velit est quam dolor ad a aliquid qui aliquid. Occaecati alias dolorem mollitia ut. Similique ea<br> voluptatem. Esse doloremque accusamus repellendus deleniti vel.</p>
+						                        <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel.</p>
 						                        <a class="btn btn-info ps-3 pe-3 text-white" href="#" role="button">Read More</a>
                                              </div>
                                      </div>
                                    <div class="carousel-item main-bg-two w-100">
-                                                 <div class="carousel-caption border-top  border-info border-3 text-center ">
+                                                 <div class="carousel-caption border-top  border-info border-3 text-center p-4">
                                                    <h2>Lorem Ipsum Dolor</h2>
-						                           <p>Ut velit est quam dolor ad a aliquid qui  ut qui nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea<br> voluptatem. Esse  accusamus repellendus deleniti vel.</p>
+						                           <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel.</p>
                                                   <a class="btn btn-info ps-3 pe-3 text-white" href="#" role="button">Read More</a>
                                                 </div>
                                    </div>
                                   <div class="carousel-item main-bg-three w-100">
-                                                   <div class="carousel-caption border-top border-info border-3 text-center ">
+                                                   <div class="carousel-caption border-top border-info border-3 text-center p-4">
                                                      <h2>Sequi ea ut et est quaerat</h2>
-						                             <p>Nemo enim ipsam voluptatem quia emsit aspernatur  aspernatur aut odit au porro quisquam <br>est, qui  ipsum quia dolor sit amet, consectetur</p>
+						                             <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel.</p>
 						                             <a class="btn btn-info ps-3 pe-3 text-white" href="#" role="button">Read More</a>
                                                    </div>
                                     </div>
@@ -120,28 +171,28 @@
  <section class="about1-section pt-5 pb-5">
 		<div class="container">
 			<div class="row">
-			  <div class="col-lg-3">
+			  <div class="col-lg-3 col-md-6 mb-4">
 			    <div class=" abt1-box ">
 			     <i class="fa fa-heartbeat" aria-hidden="true"></i>
 				 <h3 class="fs-6 fw-bold">Lorem Ipsum</h3>
 				 <p>ed ut perspicia tis unde  sit	tis unde  natus error sit volupta accusantium, et</p>
 				</div>
 			  </div>
-			  <div class="col-lg-3">
+			  <div class="col-lg-3 col-md-6 mb-4">
 			    <div class=" abt1-box ">
 			     <i class="fa fa-medkit" aria-hidden="true"></i>
 				 <h3 class="fs-6 fw-bold">Set ut perspiciatis</h3>
 				 <p>ed ut perspicia	tis unde natus voluptatem tis unde natu error sit accusantium</p>
 				</div>
 			  </div>
-			  <div class="col-lg-3">
+			  <div class="col-lg-3 col-md-6 mb-4">
 			     <div class=" abt1-box ">
 			     <i class="fa fa-thermometer-full" aria-hidden="true"></i>
 				 <h3 class="fs-6 fw-bold">Magini Dolores</h3>
 				 <p>ed ut perspicia	 tis unde natus unde  natus error sit voluptm accusantium,et</p>
 				 </div>
 			  </div>
-			  <div class="col-lg-3">
+			  <div class="col-lg-3 col-md-6 mb-4">
 			    <div class=" abt1-box ">
 			     <i class="fa fa-hourglass-half" aria-hidden="true"></i>
 				 <h3 class="fs-6 fw-bold">Nemo Enim</h3>
@@ -166,14 +217,14 @@
 <div class="container">
            <div class="head-title text-center mt-5">
 		           <h2 class="fs-3 fw-bold">ABOUT US</h2>
-		           <p class="lh-sm fs-6 ">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo <br>et quasi architecto beatae vitae dicta sunt explicabo.</p>
+		           <p class="lh-sm fs-6 ">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo et quasi architecto beatae vitae dicta sunt explicabo.</p>
 		   </div>
 		   <div class="row">
-		        <div class="col-lg-6 about-us-image">
+		        <div class="col-lg-6  col-md-12 about-us-image">
 				
 				 
 				</div>
-				<div class="col-lg-6">
+				<div class="col-lg-6 col-md-12">
 				     <div class="about-content">
 				              <h3 class="fs-3 fw-bold">Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
 				              <p class="fst-italic"><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua,</i>.</p>
@@ -193,7 +244,7 @@
 <section class="about2-section pt-5 pb-5">
 <div class="container">
             <div class="row">
-			      <div class="col-lg-3">
+			      <div class="col-lg-3 col-md-6">
 				    <div class="about2-con ">
 				      <div class=" abt-icons pb-3 d-flex align-items-center">
 				      <i class="fa fa-user-o fs-3  fw-bold blue" aria-hidden="true"></i>
@@ -205,7 +256,7 @@
 					  </div>
 					  </div>
 				  </div>
-				   <div class="col-lg-3">
+				   <div class="col-lg-3 col-md-6">
 				     <div class="about2-con">
 				      <div class="abt-icons  pb-3 d-flex align-items-center">
 				      <i class="fa fa-building-o fs-3 fw-bold  blue" aria-hidden="true"></i>
@@ -217,7 +268,7 @@
 					  </div>
 					 </div> 
 				  </div>
-				   <div class="col-lg-3">
+				   <div class="col-lg-3 col-md-6">
 				     <div class="about2-con ">
 				      <div class="abt-icons pb-3 d-flex align-items-center">
 				       <i class="fa fa-tint fs-3 fw-bold blue" aria-hidden="true"></i>
@@ -229,7 +280,7 @@
 					  </div>
 					 </div>
 				  </div>
-				   <div class="col-lg-3">
+				   <div class="col-lg-3 col-md-6">
 				     <div class="about2-con">
 				       <div class="abt-icons  pb-3 d-flex align-items-center">
 				       <i class="fa fa-trophy fs-3 fw-bold  blue" aria-hidden="true"></i>
@@ -282,8 +333,8 @@
 					  </div>
 				    </div>
 				</div>
-				      <div class="col-lg-6 about3-image">
-				        
+				      <div class="col-lg-6 col-sm-12 about3-image">
+				       
 				       </div>
 		</div>
 </div>
@@ -293,24 +344,24 @@
 <div class="container">
            <div class="head-title text-center mt-5 mb-5">
 		           <h2 class="fw-bold fs-3">SERVICES</h2>
-		           <p class="lh-sm fs-6">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo  <br>et quasi architecto beatae vitae dicta sunt explicabo.</p>
+		           <p class="lh-sm fs-6">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo  et quasi architecto beatae vitae dicta sunt explicabo.</p>
 		   </div>
 		    <div class="row">
-				      <div class="col-lg-4">
+				      <div class="col-lg-4 col-md-6 mb-3">
 					   <div class="services-content  text-center">
 					      <i class="fa fa-heartbeat mb-3 fs-1 blue  p-3 rounded-circle" aria-hidden="true"></i>
 					      <h3 class="fs-5 mb-4"><a href="#" class="text-decoration-none text-reset">Lorem Ipsum</a></h3>
 						  <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
 					   </div>
 					   </div>
-					   <div class="col-lg-4">
+					   <div class="col-lg-4 col-md-6 mb-3">
 					   <div class="services-content  text-center">
 					       <i class="fa fa-medkit mb-3 fs-2 blue  p-3 rounded-circle" aria-hidden="true"></i>
 					      <h3 class="fs-5  mb-4"><a href="#" class="text-decoration-none text-reset">Sed ut perspiciatis</a></h3>
 						  <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
 					   </div>
 					   </div>
-					   <div class="col-lg-4">
+					   <div class="col-lg-4 col-md-6 mb-3">
 					   <div class="services-content  text-center">
 					      <i class="fa fa-hospital-o mb-3 fs-2 blue p-3 rounded-circle" aria-hidden="true"></i>
 					      <h3 class="fs-5 mb-4"><a href="#" class="text-decoration-none text-reset">Magni Dolores</a></h3>
@@ -321,21 +372,21 @@
 					   </div>
 		          
 				  
-				     <div class="col-lg-4">
+				     <div class="col-lg-4 col-md-6 mb-3">
 					   <div class="services-content  text-center">
 					        <i class="fa fa-hourglass-half mb-3  fs-2 blue  p-3 rounded-circle" aria-hidden="true"></i>
 					       <h3 class="fs-5 mb-4"><a href="#" class="text-decoration-none text-reset">Nemo Enim</a></h3>
 						  <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 					   </div>
 					   </div>
-					   <div class="col-lg-4">
+					   <div class="col-lg-4 col-md-6 mb-3">
 					   <div class="services-content  text-center">
 					        <i class="fa fa-wheelchair-alt mb-3  fs-2 blue  p-3 rounded-circle" aria-hidden="true"></i>
 					       <h3 class="fs-5 mb-4"><a href="#" class="text-decoration-none text-reset">Dele cardo</a></h3>
 						  <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
 					   </div>
 					   </div>
-					   <div class="col-lg-4">
+					   <div class="col-lg-4 col-md-6 mb-3">
 					   <div class="services-content  text-center">
 					       <i class="fa fa-ambulance mb-3 fs-2 blue  p-3 rounded-circle" aria-hidden="true"></i>
 					       <h3 class="fs-5 mb-4"><a href="#" class="text-decoration-none text-reset">Divera don</a></h3>
@@ -353,23 +404,23 @@
 <div class="container">
           <div class="head-title text-center mt-4 mb-5">
 		           <h2 class=" fw-bold fs-3 pt-3">MAKE AN APPOINTMENT</h2>
-		           <p class="lh-sm fs-6">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo <br>et quasi architecto beatae vitae dicta sunt explicabo.</p>
+		           <p class="lh-sm fs-6">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo et quasi architecto beatae vitae dicta sunt explicabo.</p>
 		   </div>
 		   <div class="row">
 		   
-		         <div class="col-lg-4">
+		         <div class="col-lg-4 col-md-4">
 				    <input type="text" class="form-control  mb-3" placeholder="Your Name">
 				 </div>
-				 <div class="col-lg-4">
+				 <div class="col-lg-4 col-md-4">
 				     <input type="email" class="form-control mb-3"  placeholder="Your Email">
 				 </div>
-				 <div class="col-lg-4">
+				 <div class="col-lg-4 col-md-4">
 				      <input type="number" class="form-control mb-3"  placeholder="Your Phone">
 				 </div>
-				  <div class="col-lg-4">
+				  <div class="col-lg-4 col-md-4">
 				       <input type="number" class="form-control mb-3" placeholder="Appointment Date">
 				 </div>
-				 <div class="col-lg-4">
+				 <div class="col-lg-4 col-md-4">
 				       <select class="form-select text-muted mb-3">
 					    <option selected>Select Department</option>
                         <option value="1">Cardiology</option>
@@ -377,7 +428,7 @@
                         <option value="3">Hepatology</option>
                        </select>
 				 </div>
-				 <div class="col-lg-4">
+				 <div class="col-lg-4 col-md-4">
 				          <select class="form-select text-muted mb-3" >
 						       <option selected>Select Doctor</option>
                                <option value="1">Matt Brandon</option>
@@ -402,7 +453,7 @@
 <div class="container">
            <div class="head-title text-center mt-5 mb-5">
 		           <h2 class=" fw-bold fs-3">DEPARTMENTS</h2>
-		           <p class="lh-sm fs-6 ">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo  <br>et quasi architecto beatae vitae dicta sunt explicabo.</p>
+		           <p class="lh-sm fs-6 ">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo  et quasi architecto beatae vitae dicta sunt explicabo.</p>
 		   </div>
 		   <div class="row">
 		        <div class="col-lg-4">
@@ -441,11 +492,11 @@
 						   <h5>Cardiology</h5>
 						   <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
 					   <div class="row">
-					      <div class="col-lg-5">
+					      <div class="col-lg-5 col-md-5">
 						     <img src="image/departments-1.jpg" class="w-100 height-auto">
 						  </div>
-						  <div class="col-lg-7">
-						      <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
+						  <div class="col-lg-7 col-md-7">
+						      <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis  Est repellat minima eveniet eius et quis magni nihil. atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
 						  </div>
 					   </div>
 				     </div>
@@ -453,11 +504,11 @@
 						     <h5>Neurology</h5>
 							 <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
 							<div class="row">
-							    <div class="col-lg-5">
+							    <div class="col-lg-5 col-md-5">
 								   <img src="image/departments-2.jpg" class="w-100 height-auto">
 								</div>
-								<div class="col-lg-7">
-								      <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
+								<div class="col-lg-7 col-md-7">
+								      <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem Est repellat minima eveniet eius et quis magni nihil. quaerat quos qui similique accusamus nostrum rem vero</p>
 								</div>
 							</div>
 			            </div>
@@ -465,11 +516,11 @@
 						       <h5>Hepatology</h5>
 							   <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
 							<div class="row">
-							    <div class="col-lg-5">
+							    <div class="col-lg-5 col-md-5">
 								   <img src="image/departments-3.jpg" class="w-100 height-auto">
 								</div>
-								<div class="col-lg-7">
-								      <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
+								<div class="col-lg-7 col-md-7">
+								      <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur  Est repellat minima eveniet eius et quis magni nihil. dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
 								</div>
 							</div>
 			            </div>
@@ -477,11 +528,11 @@
 						        <h5>Pediatrics</h5>
 							     <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
 							<div class="row">
-							    <div class="col-lg-5">
+							    <div class="col-lg-5 col-md-5">
 								   <img src="image/departments-4.jpg" class="w-100 height-auto">
 								</div>
-								<div class="col-lg-7">
-								      <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
+								<div class="col-lg-7 col-md-7">
+								      <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui Est repellat minima eveniet eius et quis magni nihil. similique accusamus nostrum rem vero</p>
 								</div>
 							</div>
 			            </div>
@@ -500,14 +551,13 @@
 
           <div class="head-title text-center mt-4 mb-5">
 		           <h2 class=" fw-bold fs-3">TESTIMONIALS</h2>
-		           <p class="lh-sm fs-6">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo <br>et quasi architecto beatae vitae dicta sunt explicabo.</p>
+		           <p class="lh-sm fs-6">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo et quasi architecto beatae vitae dicta sunt explicabo.</p>
 		   </div>
 		   <!------testimonial slide---->
-		  <div id="testimonalslide" class="carousel slide" data-bs-ride="carousel">
-		    <div class="carousel-inner">
+		  
 		
-		          <div class=" carousel-item active ">
-				  <div class="row">
+		          
+  <div class="row">
 				  <div class="col-lg-4">
 				    <div class="test-content p-2 ">
 					    <p class="p-3 fst-italic"><i class="fa fa-quote-left me-2" aria-hidden="true"></i>       Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore,  optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda  
@@ -545,11 +595,20 @@
 						  </div>
 					</div>
 				  </div>
-				 </div>
-				 </div>
+				 
+ </div>
+         <div class="dots">
+		      
+			  <span class="dots-box active"></span>
+			  <span class="dots-box"></span>
+			  <span class="dots-box"></span>
+			  <span class="dots-box"></span>
+			  <span class="dots-box"></span>
+			  
+		 </div>
 				 <!----sec items--->
 				 
-				        <div class=" carousel-item ">
+				       <!-- <div class=" carousel-item ">
 			     <div class="row">
 				  <div class="col-lg-4">
 				    <div class="test-content p-2 ">
@@ -590,14 +649,8 @@
 					</div>
 				  </div>
 				 </div>
-				 </div>
-				     </div>
-		         <div class="carousel-indicators">
-                               <button type="button" data-bs-target="#testimonalslide" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                <button type="button" data-bs-target="#testimonalslide" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                 <button type="button" data-bs-target="#testimonalslide" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                  </div>
-		  </div>
+				 </div>-->
+				     
 		 	  
 		   
 
@@ -608,10 +661,11 @@
 <div class="container">
           <div class="head-title text-center mt-4 mb-5">
 		           <h2 class="fw-bold fs-3">DOCTORS</h2>
-		           <p class="lh-sm fs-6">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo  <br>et quasi architecto beatae vitae dicta sunt explicabo.</p>
+		           <p class="lh-sm fs-6">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo  
+				   et quasi architecto beatae vitae dicta sunt explicabo.</p>
 		   </div>
 		   <div class="row">
-		              <div class="col-lg-3">
+		              <div class="col-lg-3 col-md-6">
 			              <div class="doc-box ">
                             <div class="doc-image">
 			                    <img src="image/doctors/doctors-1.jpg" class="w-100 height-auto"  alt="team">
@@ -628,7 +682,7 @@
 			               </div>
 			                 </div>
                          </div>	
-						<div class="col-lg-3">
+						<div class="col-lg-3 col-md-6">
 			              <div class="doc-box ">
                             <div class="doc-image">
 			                    <img src="image/doctors/doctors-2.jpg" class="w-100 height-auto"  alt="team">
@@ -645,7 +699,7 @@
 			               </div>
 			                 </div>
                          </div>
-                       <div class="col-lg-3">
+                       <div class="col-lg-3 col-md-6">
 			              <div class="doc-box ">
                             <div class="doc-image">
 			                    <img src="image/doctors/doctors-3.jpg"class="w-100 height-auto" alt="team">
@@ -662,7 +716,7 @@
 			               </div>
 			                 </div>
                          </div>	
-                        <div class="col-lg-3">
+                        <div class="col-lg-3 col-md-6">
 			              <div class="doc-box ">
                             <div class="doc-image">
 			                    <img src="image/doctors/doctors-4.jpg" class="w-100 height-auto"  alt="team">
@@ -687,25 +741,25 @@
 <div class="container">
           <div class="head-title text-center mt-5 mb-5">
 		           <h2 class="fw-bold fs-3">GALLERY</h2>
-		           <p class="lh-sm fs-6">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo  <br>et quasi architecto beatae vitae dicta sunt explicabo.</p>
+		           <p class="lh-sm fs-6">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo  et quasi architecto beatae vitae dicta sunt explicabo.</p>
 		   </div>
 		<div class="row">
-		    <div class="col-lg-2">
+		    <div class="col-lg-2 col-md-4 mb-3">
 			    <img src="image/gallery/gallery-1.jpg"  class="w-100 height-auto"> 
 			</div>
-			<div class="col-lg-2">
+			<div class="col-lg-2 col-md-4 mb-3">
 			     <img src="image/gallery/gallery-2.jpg"  class="w-100 height-auto">
 			</div>
-			<div class="col-lg-2">
+			<div class="col-lg-2 col-md-4 mb-3">
 			      <img src="image/gallery/gallery-3.jpg"  class="w-100 height-auto">
 			</div>
-			<div class="col-lg-2">
+			<div class="col-lg-2 col-md-4 mb-3">
 			       <img src="image/gallery/gallery-4.jpg"  class="w-100 height-auto">
 			</div>
-			<div class="col-lg-2">
+			<div class="col-lg-2 col-md-4 mb-3">
 			        <img src="image/gallery/gallery-5.jpg"  class="w-100 height-auto">
 			</div>
-			<div class="col-lg-2">
+			<div class="col-lg-2 col-md-4 mb-3">
 			        <img src="image/gallery/gallery-6.jpg"  class="w-100 height-auto">
 			</div>
 			 <!--<div id="galleryslide" class="carousel slide" data-bs-ride="carousel">
@@ -727,10 +781,10 @@
 <div class="container">
           <div class="head-title text-center mt-5 mb-5">
 		           <h2 class="fw-bold fs-3">PRICING</h2>
-		           <p class="lh-sm fs-6 ">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo  <br>et quasi architecto beatae vitae dicta sunt explicabo.</p>
+		           <p class="lh-sm fs-6 ">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo et quasi architecto beatae vitae dicta sunt explicabo.</p>
 		   </div>
 		   <div class="row">
-		         <div class="col-lg-3">
+		         <div class="col-lg-3 mb-4 col-md-6">
 				        <div class="card text-center">
                               <div class="card-header border-0 fw-bold">
                                   Free
@@ -749,7 +803,7 @@
                      </div>
                     </div>
 				 </div>
-				 <div class="col-lg-3">
+				 <div class="col-lg-3 mb-4 col-md-6">
 				        <div class="card text-center">
                               <div class="card-header border-0 fw-bold text-white bus">
                                   Business
@@ -768,7 +822,7 @@
                      </div>
                     </div>
 				 </div>
-				 <div class="col-lg-3">
+				 <div class="col-lg-3 mb-4 col-md-6">
 				        <div class="card text-center">
                               <div class="card-header border-0 fw-bold">
                                  Developer
@@ -787,7 +841,7 @@
                      </div>
                     </div>
 				 </div>
-				 <div class="col-lg-3">
+				 <div class="col-lg-3 col-md-6">
 				        <div class="card text-center">
                               <div class="card-header border-0 fw-bold">
                                   Ultimate
@@ -815,7 +869,7 @@
 <div class="container pb-5 ">
           <div class="head-title text-center pt-5 mt-5 mb-5">
 		           <h2 class=" fw-bold fs-3">FREQUENTLY ASKED QUESTION</h2>
-		           <p class="lh-sm fs-6">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo  <br>et quasi architecto beatae vitae dicta sunt explicabo.</p>
+		           <p class="lh-sm fs-6">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo  et quasi architecto beatae vitae dicta sunt explicabo.</p>
 		   </div>  
 			<div class="accordion accordion-flush " id="questionaccordion">
 				<div class="accordion-item">
@@ -898,7 +952,7 @@
 <div class="container">
           <div class="head-title text-center mt-5 mb-5">
 		           <h2 class="fw-bold fs-3">CONTACT</h2>
-		           <p class="lh-sm fs-6 pb-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo  <br>et quasi architecto beatae vitae dicta sunt explicabo.</p>
+		           <p class="lh-sm fs-6 pb-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo et quasi architecto beatae vitae dicta sunt explicabo.</p>
 		   </div>
 </div>
 		   <div class="contact-map">
@@ -912,8 +966,8 @@
 				  <h6 class="pt-2">Our Address</h6>
 				  <p class="fw-light">A108 Adam Street,New York,NY 535022</p>
 				</div>
-				<div class="row mt-3 ">
-				    <div class="col-lg-6">
+				<div class="row mt-3 mb-3">
+				    <div class="col-lg-6 col-md-6">
 				        <div class="con-detail text-center p-4 lh-1">
 						  <i class="fa fa-envelope-o" aria-hidden="true"></i>
 						   <h6 class="pt-2">Email Us</h6>
@@ -921,7 +975,7 @@
 						   <p class="fw-light">contact@example.com</p>
 				        </div>
 				    </div>
-					<div class="col-lg-6">
+					<div class="col-lg-6 col-md-6 mb-3">
 				        <div class="con-detail  text-center p-4 lh-1">
 						   <i class="fa fa-phone" aria-hidden="true"></i>
 						   <h6 class="pt-2">Call Us</h6>
@@ -963,7 +1017,7 @@
 <section class="footer-section bg-light pt-4 pb-4">
 <div class="container">
 <div class="row">
-      <div class="col-lg-3">
+      <div class="col-lg-3 col-md-6">
 	  <div class="address mt-3 mb-3">
 	          <h3>Medicio</h3>
 	          <p>A108 Adam Street<br>
@@ -978,7 +1032,7 @@
 			 </div>
 	   </div>
 	  </div>
-	  <div class="col-lg-2">
+	  <div class="col-lg-2 col-md-6">
 	   <div class="links mt-3">
 	         <h4>Useful Links</h4>
 			 <ul class="p-0">
@@ -990,7 +1044,7 @@
 			 </ul>
 		</div>
 	  </div>
-	  <div class="col-lg-3">
+	  <div class="col-lg-3 col-md-6">
 	  <div class="services mt-3">
 		     <h4>Our Services</h4>
 			 <ul class="p-0">
@@ -1002,7 +1056,7 @@
 			 </ul>
 		</div>
 	  </div>
-	  <div class=" col-lg-4">
+	  <div class=" col-lg-4 col-md-6">
 	  <div class="networks mt-3">
 		     <h4>Our Newsletter</h4>
 			 <p >Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>

@@ -1,0 +1,51 @@
+/*-----mobile device-----*/
+@media (min-width:280px){
+	
+}
+@media(max-width:576px){
+	   .head-right {
+		   
+		   margin-left:60px;
+	   }
+	   .apt-btn {
+       margin-left: 0px;
+      }
+}
+/*-----mobile device landscape and smaller device-----*/
+@media(min-width:576px){
+   
+	  
+}
+/*-----median device-----*/
+@media(min-width:768px){
+.apt-btn{
+	margin-left:70px;
+}
+
+}
+/*-----large device-----*/
+@media(min-width:992px){
+	.menu a{
+		padding:13px;
+	}
+	.apt-btn{
+	margin-left:20px;
+}
+
+}
+/*-----extra large and desktop device-----*/
+@media(min-width:1200px){
+
+}
+/*@include media-breakpoint-down(sm) {
+	 .head-right {
+		   margin-left:20px;
+	 }
+@include media-breakpoint-down(md) { 
+ }
+@include media-breakpoint-down(lg) {
+	}
+@include media-breakpoint-down(xl) {
+	}
+@include media-breakpoint-down(xxl) {
+	}*/
