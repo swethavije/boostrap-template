@@ -21,12 +21,15 @@
 .apt-btn{
 	margin-left:70px;
 }
+.about-content{
+	padding-top:15px;
+}
 
 }
 /*-----large device-----*/
 @media(min-width:992px){
 	.menu a{
-		padding:13px;
+		padding:8px;
 	}
 	.apt-btn{
 	margin-left:20px;
