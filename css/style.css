@@ -290,6 +290,27 @@
     border: 5px solid #fff;
 	height:auto;
 }
+.owl-carousel .owl-item img {
+    display: block;
+    width: 20%;
+}
+.owl-dots{
+	text-align:center;
+}
+.owl-carousel button.owl-dot {
+	background:#fff;
+	border:1px solid #3fbbc0 ;
+	width:12px;
+	height:12px;
+	border-radius:50%;
+	margin:6px;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background-color:#3fbbc0; 
+}
+.owl-carousel .owl-drag .owl-item .center .item img{
+	  border:2px solid :#3fbbc0;
+}
 .test-img-con p{
 	font-size:14px;
 	font-weight:500;
@@ -364,7 +385,7 @@
    border-radius:11px;
 }
 .offcanvas-body a{
-	font-size:16px;
+	font-size:21px;
 }
 .about-content ul{
    padding-left:0px;
