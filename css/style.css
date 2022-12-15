@@ -37,6 +37,10 @@
 .header-top{
 	background-color:#3fbbc0;
 }
+.nav-items .nav-links{
+	font-size:13px;
+	font-weight:600;
+}
 .carousel-item {
 	     background-repeat:no-repeat;
 	     background-size:cover;
@@ -158,6 +162,7 @@
 	margin-bottom:20px;
 	font-size:14px;
 	font-weight:400;
+	line-height:2;
 }
 .about-content ul{
 	font-size: 15px;
@@ -170,7 +175,19 @@
 	font-weight:400;
 }
 .abt1-box i{
-	margin-bottom:10px;
+	margin-bottom:21px;
+}
+.about-find a{
+	font-size:15px;
+	font-weight:500;
+	text-decoration:none;
+	color:#444444;
+}
+.about-find i{
+	font-size:14px;
+}
+.about-find a:hover{
+	color:#3fbbc0;
 }
 .main-bg-three{
 	     background-image:url(../image/slide/slide-3.jpg);
@@ -374,6 +391,12 @@
 .accordion-body{
 	background-color: #f7fcfc;
 	font-size:15px;
+}
+.accordion-button:focus {
+    z-index:;
+    border-color: none
+    outline: 0;
+     box-shadow:none
 }
 .footer2-section{
          background-color:#eee;
